@@ -1,0 +1,2 @@
+portraitSprite = noone;
+messageText = "";

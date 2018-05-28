@@ -1,0 +1,1 @@
+mCollideWithHurtBox(id, other);

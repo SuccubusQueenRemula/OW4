@@ -1,0 +1,1 @@
+baseImageSpeed = 1;

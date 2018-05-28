@@ -1,0 +1,1 @@
+Find an instance at a specific pixel - instance_position();

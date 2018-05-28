@@ -1,0 +1,1 @@
+mDrawEnemyHealthBar(currentHealth, maxHealth, name, faction);

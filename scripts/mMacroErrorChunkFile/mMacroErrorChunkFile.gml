@@ -1,0 +1,1 @@
+#macro ERROR_CHUNK_FILE "World/X9999Y9999.json"

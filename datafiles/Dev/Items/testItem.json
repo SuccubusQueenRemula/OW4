@@ -1,0 +1,4 @@
+ObjectType inst = new ObjectType();
+ObjectType inst2 = new ObjectType();
+
+inst = instance_create(ObjectType);

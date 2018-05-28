@@ -1,0 +1,35 @@
+{
+  "name":
+  [
+      {
+          "commandType" :
+              "displayText",
+          "commandValues" :
+              ["It's Bill. Have two potions."]
+      },
+      {
+          "commandType" :
+              "addItems",
+          "commandValues" :
+              ["potion","potion"]
+      },
+      {
+          "commandType" :
+              "doNothing",
+          "commandValues" :
+              []
+      }
+  ],
+  "job":
+  [
+      {
+          "commandType" :
+              "displayText",
+          "commandValues" :
+              ["Cool!"]
+      }
+  ],
+  "hammer":
+  [
+  ]
+}
