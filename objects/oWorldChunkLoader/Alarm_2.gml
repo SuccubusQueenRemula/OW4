@@ -5,38 +5,34 @@ var _changeList = noone;
 var _file = chunkFile;
 var _loadingWorldChunk = loadingWorldChunk;
 
-with (oChangeListHandler)
-{
-	_changeList = mChangeListFindOrCreate(_loadingWorldChunk.xCoord, _loadingWorldChunk.yCoord);
-}
 
 //If it's still undefined, we'll create a new changelist and add it to the map.
+_changeList = mChangeListFindOrCreate(_loadingWorldChunk.xCoord, _loadingWorldChunk.yCoord);
 
+
+
+
+//Check against any weird wonky error with the above method.
+if (_changeList == noone)
+{
+	exit;
+}
 
 //Now we start applying the individual changelists.
 with (_changeList)
 {
-	//If the changelist's changes are not defined, then we're just done. There's no changes to apply.
-	if (changes == noone)
+	//If the changelist's changes are erroneous, then we fix than and don't apply anything.
+	if (changes == noone || !ds_exists(changes, ds_type_grid))
 	{
+		changes = ds_grid_create(4, 0);
+		instance_deactivate_object(_changeList);
 		exit;
 	}
-	//We also only want to progress if changes is defined as a ds_grid.
-	if (ds_exists(changes, ds_type_grid))
-	{
-		//We also also also only want to progress if there's any rows in the grid.
-		if (ds_grid_height(changes) >= 1)
-		{
 			
-			mChangeListApplyChanges(_loadingWorldChunk);
-		}
-		else
-		{
-			exit;
-		}
-	}
-	else
-	{
-		exit;
-	}
+	//Do the meat and potatoes of the work now.
+	mChangeListApplyChanges(_loadingWorldChunk);
+	instance_deactivate_object(_changeList);
+	
+	
 }
+
