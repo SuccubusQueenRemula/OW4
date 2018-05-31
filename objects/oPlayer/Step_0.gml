@@ -3,12 +3,7 @@
 switch (playerState)
 {
 	case playerStates.idle:
-		var _xMove = oInputHandler.inputRight - oInputHandler.inputLeft;
-		var _yMove = oInputHandler.inputDown - oInputHandler.inputUp;
-		if (_xMove != 0 || _yMove != 0)
-		{
-			playerState = playerStates.move;
-		}
+		mPlayerIdle();
 		break;
 		
 		
