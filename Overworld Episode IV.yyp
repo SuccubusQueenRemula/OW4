@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "2c83471d-e91d-4649-bc7e-2737be59da73",
+            "Value": {
+                "id": "a07eca56-010a-4caf-988b-25284d3d86b1",
+                "resourcePath": "scripts\\mPlayerIdleStateLeftClick\\mPlayerIdleStateLeftClick.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2cd5d840-a701-4ecb-8daa-28de7f91fa8e",
             "Value": {
                 "id": "98d0be9e-8364-422c-92e6-b92ac70ad4c9",
@@ -826,7 +834,7 @@
             "Key": "43b9c9e3-0457-4f70-b09c-5f3df0b1d44c",
             "Value": {
                 "id": "345f34ca-0d50-47a5-8322-b85ce3ebd75f",
-                "resourcePath": "scripts\\mMoveStateLeftClick\\mMoveStateLeftClick.yy",
+                "resourcePath": "scripts\\mPlayerMoveStateLeftClick\\mPlayerMoveStateLeftClick.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3015,6 +3023,7 @@
         "0a3987f4-2375-4da7-b123-fa706fbf62c8",
         "8e24738b-b848-4e53-bc68-226d081b7957",
         "8c1e05ff-c510-4ed2-8b08-a99983f111f6",
+        "2c83471d-e91d-4649-bc7e-2737be59da73",
         "e3db5449-986c-4650-9196-d55f1f8ea48c",
         "6cb8a5aa-c231-4302-90b3-f34b5121281e",
         "60f69c31-9966-4223-9179-77ffaa7723bf",

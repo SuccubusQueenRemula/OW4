@@ -56,7 +56,7 @@ if (mPlayerAttemptConversation()) { exit; }
 //World interaction. This can result in various things based on state.
 if (oInputHandler.inputLeftClick)
 {
-	mMoveStateLeftClick();
+	mPlayerMoveStateLeftClick();
 }
 #endregion LeftClick
 

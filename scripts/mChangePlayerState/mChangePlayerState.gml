@@ -7,8 +7,8 @@ switch (_newState)
 	case playerStates.move:
 		image_index = 0;
 		image_speed = 1;
-		if (faceDirection == faceDirections.left) {image_xscale = -1;}
-		else {image_xscale = 1;}
+		//if (faceDirection == faceDirections.left) {image_xscale = -1;}
+		//else {image_xscale = 1;}
 		playerState = playerStates.move;
 		break;
 	
