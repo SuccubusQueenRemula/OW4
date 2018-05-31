@@ -202,7 +202,7 @@
             "Key": "08e7175b-5eca-42b1-9ab2-001600e51e32",
             "Value": {
                 "id": "a0e8cb24-b692-4db8-8dcf-e4c7ac2bd4ec",
-                "resourcePath": "sprites\\Left\\Left.yy",
+                "resourcePath": "sprites\\sAdetteIdleLeft\\sAdetteIdleLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2490,7 +2490,7 @@
             "Key": "d359e2e2-84d4-4294-9043-8384220463c8",
             "Value": {
                 "id": "b1100cca-532b-4eab-bb0b-7cd344597557",
-                "resourcePath": "sprites\\Right\\Right.yy",
+                "resourcePath": "sprites\\sAdetteIdleRight\\sAdetteIdleRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2970,7 +2970,7 @@
             "Key": "fb909f4a-842d-441c-b993-b79c36aeac14",
             "Value": {
                 "id": "8893cde6-b8dc-44b0-bc17-fd8a2965cf3b",
-                "resourcePath": "sprites\\AdetteFront\\AdetteFront.yy",
+                "resourcePath": "sprites\\sAdetteIdleFront\\sAdetteIdleFront.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2978,7 +2978,7 @@
             "Key": "fbb6b476-6bf0-422d-ad68-d5820543227d",
             "Value": {
                 "id": "f7701b01-c7de-4553-97a5-04af5f8a7d63",
-                "resourcePath": "sprites\\Back\\Back.yy",
+                "resourcePath": "sprites\\sAdetteIdleBack\\sAdetteIdleBack.yy",
                 "resourceType": "GMSprite"
             }
         },
