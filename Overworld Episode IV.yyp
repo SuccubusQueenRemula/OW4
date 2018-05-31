@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "096e649e-cd1a-48ec-b8d1-f1f5ae4cf08b",
-            "Value": {
-                "id": "2586a424-06d6-4863-80c5-659676963921",
-                "resourcePath": "objects\\oSurfaceTester\\oSurfaceTester.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "09c8e9df-d179-4241-b2a5-efa425b917e9",
             "Value": {
                 "id": "ef544c96-0033-4fce-89f5-613f394c68e8",
@@ -975,6 +967,14 @@
             }
         },
         {
+            "Key": "5038a164-98be-46e4-9b7b-d89217310ab2",
+            "Value": {
+                "id": "6af32a8b-6d6c-4d34-9ac7-604bad69da6e",
+                "resourcePath": "views\\aa866640-adcd-4d9f-8798-553658452e3c-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "51c37900-fe0a-4d94-aad1-32abb312511e",
             "Value": {
                 "id": "9a95d1b7-ef83-4084-8541-2e111701679c",
@@ -1322,7 +1322,7 @@
             "Key": "6a82a63f-74b7-491d-86d8-daf0ad46b068",
             "Value": {
                 "id": "9a266ef7-d23d-4c56-afda-34a616d57a55",
-                "resourcePath": "scripts\\mChangeListsExportToJSON\\mChangeListsExportToJSON.yy",
+                "resourcePath": "scripts\\mChangeListsExportAll\\mChangeListsExportAll.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2391,6 +2391,14 @@
             }
         },
         {
+            "Key": "c9a69eb3-2071-4b1e-b943-45d2404f317c",
+            "Value": {
+                "id": "ca8aa98b-b941-444c-a491-9505a82651ed",
+                "resourcePath": "scripts\\mChangeListExportToJSON\\mChangeListExportToJSON.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ca050d0f-d3f9-4e4f-a293-ef1d23d985a0",
             "Value": {
                 "id": "3346db13-e50a-40a2-ab9f-40403bd13089",
@@ -2759,6 +2767,14 @@
             }
         },
         {
+            "Key": "ec35ede8-faf7-4a81-9fe1-314bd453936f",
+            "Value": {
+                "id": "000f3e2f-4a94-4645-af4c-05b8a897c7de",
+                "resourcePath": "objects\\oCodePlayground\\oCodePlayground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ec454a2c-49ab-425d-ab20-8400369a8c0d",
             "Value": {
                 "id": "6e880615-0364-4ee9-a30f-34b0eecdb9f3",
@@ -3092,6 +3108,7 @@
         "49af8145-503b-4a7f-86a2-607ebfc43223",
         "2bc24a46-5891-452e-9738-2c9f92a8a5fc",
         "6a82a63f-74b7-491d-86d8-daf0ad46b068",
+        "c9a69eb3-2071-4b1e-b943-45d2404f317c",
         "7786f4ba-9333-4b99-b00c-2284d5ab365f",
         "11290bc2-b78d-4b5c-91b6-2b85cc645905",
         "c977c1a2-dba1-41f2-9625-db6d014bc13f",

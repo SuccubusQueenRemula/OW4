@@ -13,7 +13,8 @@
         "79c1bd61-6782-4c12-8170-c25e77e02a54",
         "49af8145-503b-4a7f-86a2-607ebfc43223",
         "2bc24a46-5891-452e-9738-2c9f92a8a5fc",
-        "6a82a63f-74b7-491d-86d8-daf0ad46b068"
+        "6a82a63f-74b7-491d-86d8-daf0ad46b068",
+        "c9a69eb3-2071-4b1e-b943-45d2404f317c"
     ],
     "filterType": "GMScript",
     "folderName": "Change List Scripts",

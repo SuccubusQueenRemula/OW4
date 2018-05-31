@@ -8,14 +8,17 @@ var _saveInfo = ds_map_create();
 //We'll also need to work with the center chunk a lot.
 var _centerChunk = ds_grid_get(oWorldHandler.worldChunks, 1, 1);
 
+#region StorePositions
 ds_map_set(_saveInfo, "worldX", global.worldX);
 ds_map_set(_saveInfo, "worldY", global.worldY);
 ds_map_set(_saveInfo, "chunkX", oPlayer.x - _centerChunk.x);
 ds_map_set(_saveInfo, "chunkY", oPlayer.y - _centerChunk.y);
 ds_map_set(_saveInfo, "worldOffsetX", global.worldChunkOffsetX);
 ds_map_set(_saveInfo, "worldOffsetY", global.worldChunkOffsetY);
+#endregion StorePositions
 
-
+var _changeListJson = mChangeListsExportAll();
+ds_map_set(_saveInfo, "changeLists", _changeListJson);
 
 
 
