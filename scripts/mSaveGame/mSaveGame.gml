@@ -18,14 +18,7 @@ ds_map_set(_saveInfo, "worldOffsetY", global.worldChunkOffsetY);
 #endregion StorePositions
 
 var _changeListJson = mChangeListsExportAll();
-ds_map_set(_saveInfo, "changeLists", _changeListJson);
-
-
-
-
-
-
-
+ds_map_add_map(_saveInfo, "changeLists", _changeListJson);
 
 
 
@@ -35,6 +28,5 @@ var _file = file_text_open_write(working_directory + "sav1.json");
 file_text_write_string(_file, _string);
 file_text_close(_file);
 
-
-
 ds_map_destroy(_saveInfo);
+

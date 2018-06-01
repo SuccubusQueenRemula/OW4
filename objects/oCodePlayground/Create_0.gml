@@ -8,7 +8,6 @@ while (!file_text_eof(_file))
 
 
 
-soandso = json_decode(_string);
-changeLists = json_decode(ds_map_find_value(soandso, "changeLists"));
+testSaveFile = json_decode(_string);
+changeLists =  -1;
 
-var _stopHere = true;
