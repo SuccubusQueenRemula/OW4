@@ -42,7 +42,7 @@ for (_i = 0; _i < _h; _i++)
 			ds_map_set(_loadingWorldChunk.instanceMap, _target, _item);
 			break;
 			
-		case changeListCommands.updateCHIDCoordinateX:
+		case changeListCommands.addInvItemCHIDAndFileUpdateX:
 			var _instance = ds_map_find_value(_loadingWorldChunk.instanceMap, _target);
 			
 			if (!is_undefined(_instance))
@@ -51,7 +51,7 @@ for (_i = 0; _i < _h; _i++)
 			}
 			break;
 			
-		case changeListCommands.updateCHIDCoordinateY:
+		case changeListCommands.addInvItemCHIDAndFileUpdateY:
 			var _instance = ds_map_find_value(_loadingWorldChunk.instanceMap, _target);
 			
 			if (!is_undefined(_instance))

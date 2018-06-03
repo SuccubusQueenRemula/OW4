@@ -4,7 +4,7 @@ worldChunks = ds_grid_create(3, 3);
 depth = 15000;
 
 
-mLoadWorldAtCenterChunk(10, 10);
+mLoadWorldAtCenterChunk(1000, 1000);
 
 
 

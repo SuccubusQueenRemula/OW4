@@ -2143,6 +2143,14 @@
             }
         },
         {
+            "Key": "b552f73c-ac59-4349-a6b3-139630c183d9",
+            "Value": {
+                "id": "6127d097-72bd-4a4b-9d59-8699470d4ae4",
+                "resourcePath": "scripts\\mChangeListCleanAll\\mChangeListCleanAll.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b5698fc0-ebe6-40d4-8e4f-1a6506a30da3",
             "Value": {
                 "id": "5ee24b2f-c0ef-4c6d-aab0-fbdd562bbe6a",
@@ -3141,6 +3149,7 @@
         "2bc24a46-5891-452e-9738-2c9f92a8a5fc",
         "6a82a63f-74b7-491d-86d8-daf0ad46b068",
         "c9a69eb3-2071-4b1e-b943-45d2404f317c",
+        "b552f73c-ac59-4349-a6b3-139630c183d9",
         "7786f4ba-9333-4b99-b00c-2284d5ab365f",
         "11290bc2-b78d-4b5c-91b6-2b85cc645905",
         "c977c1a2-dba1-41f2-9625-db6d014bc13f",

@@ -26,8 +26,8 @@ with (_changeList)
 	//Create three entries for this changelist. One to add the item, by CHID, as well as which file to load.
 	//Then two more placing it at the proper x/y.
 	mAddChangeToList(changeListCommands.addInvItemCHIDAndFile, _object.CHID, _time, _object.itemFile);
-	mAddChangeToList(changeListCommands.updateCHIDCoordinateX, _object.CHID, _time, _object.localX);
-	mAddChangeToList(changeListCommands.updateCHIDCoordinateY, _object.CHID, _time, _object.localY);		
+	mAddChangeToList(changeListCommands.addInvItemCHIDAndFileUpdateX, _object.CHID, _time, _object.localX);
+	mAddChangeToList(changeListCommands.addInvItemCHIDAndFileUpdateY, _object.CHID, _time, _object.localY);		
 }
 
 //Now deactivate this CL.

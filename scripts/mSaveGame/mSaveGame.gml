@@ -17,6 +17,8 @@ ds_map_set(_saveInfo, "worldOffsetX", global.worldChunkOffsetX);
 ds_map_set(_saveInfo, "worldOffsetY", global.worldChunkOffsetY);
 #endregion StorePositions
 
+//We clean up the changelists, then save them to a map.
+mChangeListCleanAll();
 var _changeListJson = mChangeListsExportAll();
 ds_map_add_map(_saveInfo, "changeLists", _changeListJson);
 
