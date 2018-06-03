@@ -60,14 +60,14 @@ with (oWorldHandler)
 			file_text_close(_file);
 			
 			//Now we can create the chunk and add it to the grid.
-			_chunk = instance_create_depth(global.chunkWidth * (_x - 1), global.chunkHeight * (_y - 1), 16000, oWorldChunk);
+			_chunk = instance_create_depth(((_x - 1) * global.chunkWidth) + global.worldChunkOffsetX, ((_y - 1) * global.chunkHeight) + global.worldChunkOffsetY, 16000, oWorldChunk);
 			ds_grid_set(worldChunks, _x, _y, _chunk);
 			
 			//Assign the chunk to the proper coordinates.
-			var _xx = global.worldChunkOffsetX + ((_x - 1) * global.chunkWidth);
-			_chunk.x = _xx;
-			var _yy = global.worldChunkOffsetY + ((_y - 1) * global.chunkHeight);
-			_chunk.y = _yy;
+			//var _xx = global.worldChunkOffsetX + ((_x - 1) * global.chunkWidth);
+			//_chunk.x = _xx;
+			//var _yy = global.worldChunkOffsetY + ((_y - 1) * global.chunkHeight);
+		//	_chunk.y = _yy;
 			
 			//Now, with the chunk created, we use the loaded file information to make correctly load all info for it.
 			var _chunkInfo = json_decode(_fileString);
@@ -75,7 +75,7 @@ with (oWorldHandler)
 			ds_map_destroy(_chunkInfo);
 			
 			//Get a changelist for this chunk.
-			var _cl = mChangeListFindOrCreate(_chunkX - (_x - 1), _chunkY - (_y - 1));
+			var _cl = mChangeListFindOrCreate(_chunkX + (_x - 1), _chunkY + (_y - 1));
 			
 			with (_cl)
 			{

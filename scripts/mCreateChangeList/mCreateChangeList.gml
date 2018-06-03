@@ -6,10 +6,5 @@ var _cl = instance_create_depth(x, y, Depths.LogicItems, oChangeList);
 _cl.chunkX = argument0;
 _cl.chunkY = argument1;
 
-if (argument0 == -4)
-{
-	var _zero = crashNow;
-}
-
 _cl.changes = ds_grid_create(4, 0);
 return _cl;

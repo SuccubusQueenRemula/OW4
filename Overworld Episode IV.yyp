@@ -1671,6 +1671,14 @@
             }
         },
         {
+            "Key": "8f8ff1cc-85ed-497b-8b48-d42fdcc9716f",
+            "Value": {
+                "id": "8b5c9434-78f7-44cd-94d3-3a3a3dbb35e3",
+                "resourcePath": "scripts\\mLoadAllChangeLists\\mLoadAllChangeLists.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8f98c088-3001-426c-af22-d671aa1756a0",
             "Value": {
                 "id": "0a8c02ef-17ae-4c47-9e62-13411ec48776",
@@ -3157,6 +3165,7 @@
         "6c77a6c1-b351-4db2-ae98-4776b360d2b8",
         "06eeefcd-f9b7-414b-8af0-738576348b28",
         "448d77c2-55c1-432f-911d-1d5db351cbe2",
+        "8f8ff1cc-85ed-497b-8b48-d42fdcc9716f",
         "5b98c0b3-b992-4bae-a199-6639c879aa8d",
         "5b97a056-c14c-443d-992e-3aa91065bb8c",
         "77f869e1-cf9d-4762-93a4-bdc1451e602c",

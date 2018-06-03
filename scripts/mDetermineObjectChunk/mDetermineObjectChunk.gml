@@ -26,15 +26,11 @@ with (oWorldChunk)
 					//This is the matching world chunk it matches this grid node.
 					if (_value = _id)
 					{
-						_x--;
-						_y--;
-						_object.detChunkX = global.worldX + _x;
-						_object.detChunkY = global.worldY + _y;
+						_object.detChunkX = global.worldX + (_x - 1);
+						_object.detChunkY = global.worldY + (_y - 1);
 						_object.currentChunk = _value;
 						_object.localX = _object.x - _value.x;
 						_object.localY = _object.y - _value.y;
-						_x = _w + 1;
-						_y = _h + 1;
 						return true;
 					}
 				}
