@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "448d77c2-55c1-432f-911d-1d5db351cbe2",
+            "Value": {
+                "id": "2495232c-22e6-43d9-ac72-2ecf2d5ea342",
+                "resourcePath": "scripts\\mLoadChangeListData\\mLoadChangeListData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "470e13fa-07a6-4551-89ed-ced0dcc18e47",
             "Value": {
                 "id": "78b3bd14-78ed-461d-9dab-6275e7a823bf",
@@ -1468,6 +1476,14 @@
                 "id": "fe790bbf-a1da-4ea7-a238-021afce4acac",
                 "resourcePath": "views\\7bdfee19-e4ea-4305-8774-d83873da407a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7cc0a440-7ade-492f-bb09-b555ab87c2af",
+            "Value": {
+                "id": "e77369d0-3f1b-46fa-b5ce-55e48aa58981",
+                "resourcePath": "paths\\pTest\\pTest.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -2327,6 +2343,14 @@
             }
         },
         {
+            "Key": "c46503c2-1ad8-4a2b-a0e3-f89bcbff2a06",
+            "Value": {
+                "id": "0855063a-ad35-479b-acf9-dec57894c2f3",
+                "resourcePath": "scripts\\mDestroyAllChangeLists\\mDestroyAllChangeLists.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c4e087de-68ad-4a26-af86-33abd00bb75d",
             "Value": {
                 "id": "88e8463d-b295-427f-863f-72eb148b0b4c",
@@ -3126,11 +3150,13 @@
         "d9a8e831-5887-45f0-90f0-63f8e11777df",
         "ddb8a17f-7fed-40c4-9a74-059a11f4b26e",
         "38994b90-c90d-463e-b45f-86b96b799cba",
+        "c46503c2-1ad8-4a2b-a0e3-f89bcbff2a06",
         "013ab32b-5906-415b-a7f2-93b737ff3f51",
         "09c8e9df-d179-4241-b2a5-efa425b917e9",
         "214fd523-841b-4fd8-b7c1-320cccf6a28e",
         "6c77a6c1-b351-4db2-ae98-4776b360d2b8",
         "06eeefcd-f9b7-414b-8af0-738576348b28",
+        "448d77c2-55c1-432f-911d-1d5db351cbe2",
         "5b98c0b3-b992-4bae-a199-6639c879aa8d",
         "5b97a056-c14c-443d-992e-3aa91065bb8c",
         "77f869e1-cf9d-4762-93a4-bdc1451e602c",

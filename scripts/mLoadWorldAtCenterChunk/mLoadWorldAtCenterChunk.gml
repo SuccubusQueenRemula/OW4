@@ -75,7 +75,7 @@ with (oWorldHandler)
 			ds_map_destroy(_chunkInfo);
 			
 			//Get a changelist for this chunk.
-			var _cl = mChangeListFindOrCreate(_chunkX - _x - 1, _chunkY - _y - 1);
+			var _cl = mChangeListFindOrCreate(_chunkX - (_x - 1), _chunkY - (_y - 1));
 			
 			with (_cl)
 			{

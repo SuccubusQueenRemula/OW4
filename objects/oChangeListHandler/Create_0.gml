@@ -13,9 +13,4 @@ currentSpawnCHID = 0;
 currentStoreCHID = 0;
 currentSpecialCHID = 0;
 
-
-
-
-
-
 changeLists = ds_map_create();
