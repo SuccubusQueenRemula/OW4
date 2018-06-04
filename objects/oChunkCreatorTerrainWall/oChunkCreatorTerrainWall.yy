@@ -1,14 +1,14 @@
 {
-    "id": "16a17304-533a-4865-941a-67e39ad10fd3",
+    "id": "9b5c3536-75b9-4a80-af61-3923092319a8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oCliffInsideLeft",
+    "name": "oChunkCreatorTerrainWall",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "9b5c3536-75b9-4a80-af61-3923092319a8",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c423ef86-e8f2-4267-be52-c20a91953d24",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

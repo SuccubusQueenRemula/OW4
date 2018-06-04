@@ -1895,6 +1895,14 @@
             }
         },
         {
+            "Key": "9b5c3536-75b9-4a80-af61-3923092319a8",
+            "Value": {
+                "id": "23f1a74a-e64f-49bc-bd57-fa5492f8d327",
+                "resourcePath": "objects\\oChunkCreatorTerrainWall\\oChunkCreatorTerrainWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9b93891f-5361-42db-9b00-eee0bb6143c1",
             "Value": {
                 "id": "66ccc4a9-fa02-4228-a1bf-5744cf2d01a6",
@@ -2028,14 +2036,6 @@
                 "id": "4f2ab950-d61a-4aec-99c1-51680b19df21",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aa809e20-8153-4c5d-8a9e-80523c189afb",
-            "Value": {
-                "id": "620f9b41-0046-4b96-bc79-c6b673055aa7",
-                "resourcePath": "rooms\\cX1001Y1001_SouthEastOfFarm\\cX1001Y1001_SouthEastOfFarm.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -2439,6 +2439,14 @@
             }
         },
         {
+            "Key": "c7c9749a-3d09-415f-9cb3-6d8414ebd974",
+            "Value": {
+                "id": "29593ca1-0fe3-4d40-a141-edf0ed8f72cd",
+                "resourcePath": "rooms\\cX1001Y1001_SEofFarm\\cX1001Y1001_SEofFarm.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c7df4fa2-68fa-4a97-961b-e25da96925ae",
             "Value": {
                 "id": "efc590a5-e3bc-4310-b566-915bd84f9d45",
@@ -2823,6 +2831,14 @@
             }
         },
         {
+            "Key": "e84ac624-fc59-4a47-a08b-55b215c05c76",
+            "Value": {
+                "id": "74e0b86c-5152-464a-aa4f-3188d0a51775",
+                "resourcePath": "views\\e84ac624-fc59-4a47-a08b-55b215c05c76.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e8f27327-c2d5-437a-947c-1afffd747cd2",
             "Value": {
                 "id": "d4e6c9e0-f7df-4bed-912e-b849bfa5e274",
@@ -3107,14 +3123,6 @@
             "Value": {
                 "id": "1f54bc39-04fc-4af3-b4d1-57395dd42fac",
                 "resourcePath": "rooms\\rTimeline\\rTimeline.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "fe5c3126-29c8-4c5f-91f5-f74959db7bd8",
-            "Value": {
-                "id": "319adb13-eab6-4ea5-82d5-08d092f445ac",
-                "resourcePath": "rooms\\cX1002Y1001_SouthEastOfFarm1\\cX1002Y1001_SouthEastOfFarm1.yy",
                 "resourceType": "GMRoom"
             }
         },
