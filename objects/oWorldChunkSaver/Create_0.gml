@@ -3,3 +3,8 @@ mDefineGlobals();
 
 chunkCoordX = 0;
 chunkCoordY = 0;
+
+chunkX = "";
+chunkY = "";
+
+

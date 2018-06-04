@@ -5,11 +5,11 @@
     "name": "ac7a862e-679a-4ab1-b12d-d1b0d137ffca",
     "children": [
         "53447d99-bf38-46df-91ed-f42eeef98da0",
-        "bf2ae5d6-fcc3-4c09-b389-3d5cded7d4dd",
         "96e6e88f-a4af-4a6d-8dec-746ca574a928",
         "352280e0-ef48-4a00-b273-3117957afec5",
         "65487393-48d9-4fca-837e-e9c9420be5cc",
-        "5c4a21c9-39b9-4956-932a-67966ae2e57f"
+        "5c4a21c9-39b9-4956-932a-67966ae2e57f",
+        "fee5932b-bc0e-4ecb-a298-29c534ad6122"
     ],
     "filterType": "GMScript",
     "folderName": "World Scripts",

@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "212d8c79-f20c-419b-8b81-b5dd8f007a51",
+            "Value": {
+                "id": "b5b516e7-7b8c-4599-bf39-dc4214c26c8d",
+                "resourcePath": "scripts\\mChunkSaverFillTerrainGrid\\mChunkSaverFillTerrainGrid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "213ae68c-6881-4184-aed6-5f9c0c354025",
             "Value": {
                 "id": "adb4125b-f5e8-4a28-8d62-73defb3c7520",
@@ -900,6 +908,14 @@
                 "id": "67514bda-3712-4062-b487-3c03e536c2eb",
                 "resourcePath": "rooms\\rEastOfFarm\\rEastOfFarm.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4a9ba64e-8025-4c3e-bf39-6715d6fa4733",
+            "Value": {
+                "id": "1e394520-939a-454a-8f0d-1d16b8d1e1ba",
+                "resourcePath": "scripts\\mChunkSaverProcessInstances\\mChunkSaverProcessInstances.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1663,6 +1679,14 @@
             }
         },
         {
+            "Key": "8e11532c-6f29-4669-b773-5d39ef0f7db7",
+            "Value": {
+                "id": "e8a83dbe-92cc-4fea-8ee0-e00a7c33ae49",
+                "resourcePath": "views\\8e11532c-6f29-4669-b773-5d39ef0f7db7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e24738b-b848-4e53-bc68-226d081b7957",
             "Value": {
                 "id": "38744840-b32e-41b0-83c8-4243ef41ee4f",
@@ -2239,6 +2263,14 @@
             }
         },
         {
+            "Key": "bbee6182-b8db-40e9-a89e-ba735006fbde",
+            "Value": {
+                "id": "9b131419-2fd3-4951-a458-56d137b7374c",
+                "resourcePath": "scripts\\mChunkSaverWriteFile\\mChunkSaverWriteFile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bc9ca09c-4843-4213-aff8-aa5b36c6105f",
             "Value": {
                 "id": "456d3eb4-560a-40d1-9357-50e3498595c3",
@@ -2791,6 +2823,14 @@
             }
         },
         {
+            "Key": "e8f27327-c2d5-437a-947c-1afffd747cd2",
+            "Value": {
+                "id": "d4e6c9e0-f7df-4bed-912e-b849bfa5e274",
+                "resourcePath": "scripts\\mChunkSaverInfoFromRoomName\\mChunkSaverInfoFromRoomName.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e9bffa7d-e829-458d-ba5e-68eba68297b2",
             "Value": {
                 "id": "77cc2aa9-419a-49c2-94c1-125c769f3ad3",
@@ -3055,6 +3095,14 @@
             }
         },
         {
+            "Key": "fc57d278-8253-4a4b-b249-106488d184b5",
+            "Value": {
+                "id": "1c1b6c00-c7fc-473e-8946-728863286195",
+                "resourcePath": "scripts\\mChunkSaverCheckContinueMultiBuild\\mChunkSaverCheckContinueMultiBuild.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fd8da16a-7673-4789-9703-bc6003dacb67",
             "Value": {
                 "id": "1f54bc39-04fc-4af3-b4d1-57395dd42fac",
@@ -3068,6 +3116,14 @@
                 "id": "319adb13-eab6-4ea5-82d5-08d092f445ac",
                 "resourcePath": "rooms\\cX1002Y1001_SouthEastOfFarm1\\cX1002Y1001_SouthEastOfFarm1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fee5932b-bc0e-4ecb-a298-29c534ad6122",
+            "Value": {
+                "id": "44879fc5-c2fe-4efa-bc86-11ec32149508",
+                "resourcePath": "views\\fee5932b-bc0e-4ecb-a298-29c534ad6122.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3150,12 +3206,6 @@
         "6a82a63f-74b7-491d-86d8-daf0ad46b068",
         "c9a69eb3-2071-4b1e-b943-45d2404f317c",
         "b552f73c-ac59-4349-a6b3-139630c183d9",
-        "7786f4ba-9333-4b99-b00c-2284d5ab365f",
-        "11290bc2-b78d-4b5c-91b6-2b85cc645905",
-        "c977c1a2-dba1-41f2-9625-db6d014bc13f",
-        "4ffbd4b6-393f-40fe-9de3-1a60c9c10a98",
-        "5aa3e290-0e61-4093-8a54-9ac373b5c190",
-        "05ac33c2-0ae4-45a4-a814-ef7af54e405f",
         "64b52272-2ff8-4940-93f9-b3d5e97c35ae",
         "aa81ae74-28a9-4407-b733-b3915edbc33c",
         "dc3e9914-d625-48a0-b29c-e61021da40ee",
@@ -3169,6 +3219,17 @@
         "38994b90-c90d-463e-b45f-86b96b799cba",
         "c46503c2-1ad8-4a2b-a0e3-f89bcbff2a06",
         "013ab32b-5906-415b-a7f2-93b737ff3f51",
+        "7786f4ba-9333-4b99-b00c-2284d5ab365f",
+        "11290bc2-b78d-4b5c-91b6-2b85cc645905",
+        "c977c1a2-dba1-41f2-9625-db6d014bc13f",
+        "4ffbd4b6-393f-40fe-9de3-1a60c9c10a98",
+        "5aa3e290-0e61-4093-8a54-9ac373b5c190",
+        "05ac33c2-0ae4-45a4-a814-ef7af54e405f",
+        "212d8c79-f20c-419b-8b81-b5dd8f007a51",
+        "4a9ba64e-8025-4c3e-bf39-6715d6fa4733",
+        "e8f27327-c2d5-437a-947c-1afffd747cd2",
+        "fc57d278-8253-4a4b-b249-106488d184b5",
+        "bbee6182-b8db-40e9-a89e-ba735006fbde",
         "09c8e9df-d179-4241-b2a5-efa425b917e9",
         "214fd523-841b-4fd8-b7c1-320cccf6a28e",
         "6c77a6c1-b351-4db2-ae98-4776b360d2b8",

@@ -56,32 +56,16 @@ with (oChangeList)
 						ds_grid_set(changes, changeListColumns.command, _j, changeListCommands.cleanUp);
 						_cleaned = true;
 						
-						//Generally, when an inv item instance is added, it's X and Y coordinates are set as the next two entries.
-						//Let's check if that's the case for the next two entries, and if so, flag them for cleanup as well.
 						
-						//We use k to branch off of j.
-						_k = _j;
-						//We'll only be checking the next 2 rows, so we can use the rare and basic repeat loop here.
-						repeat (2)
-						{
-							_k++;
-							if (!(_k >= _h))
-							{
-								//Grab the command and target for this row.
-								_kCom = ds_grid_get(changes, changeListColumns.command, _k);
-								_kTar = ds_grid_get(changes, changeListColumns.target, _k)
-								
-								//If the command is specifically the update X or Y command type for a recently added item and the two targets match,
-								//then this entry is also flagged for cleanup.
-								if ((_kCom == changeListCommands.addInvItemCHIDAndFileUpdateX || _kCom == changeListCommands.addInvItemCHIDAndFileUpdateY) && _kTar == _jTar)
-								{
-									ds_grid_set(changes, changeListColumns.command, _k, changeListCommands.cleanUp);
-								}
-							}
-						}
 						
-						//Now, regardless of what happened with the _k value, we DID hit a conflicting entry. We no longer care about further conflicts
-						//as they might also have their own conflict they need to invalidate. So we're done looping on _j for now.
+						//Originally, I thought to purge the upcoming entries for X and Y changes. However, you should actually only do that if the add came first, the remove second.
+						//Otherwise, you're dealing with a case where the player basically moved the instance in the same chunk.
+						//Instead, we just handle X/Y updates in another case statement, and cleanse further updates to the same CHID.
+						//So what to do if this somehow creates lingering X/Y updates? On chunk LOAD, we should note the CHID didn't exist and mark the command as cleanup there.
+						
+						
+						//We no longer care about further conflicts as they might also have their own conflict they need to invalidate. 
+						//So we're done looping on _j for now.
 						//To break out of _j (and not this switch statement), we just set _j to be above its threshold for looping.
 						_j = _h + 1;
 					}

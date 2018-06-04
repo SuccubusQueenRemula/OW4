@@ -23,6 +23,7 @@ if (currentRoom == room_last)
 {
 	//Then we need to close.
 	game_end();
+	exit;
 }
 
 //Was the first room already checked? Did it not start with a C??
@@ -50,5 +51,6 @@ while (_keepSearching)
 	{
 		//It was? Then we've checked every room. Close the game.
 		game_end(); 
+		exit;
 	}
 }
