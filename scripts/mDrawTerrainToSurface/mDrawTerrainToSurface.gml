@@ -9,16 +9,14 @@ if (!surface_exists(terrainSurface))
 surface_set_target(terrainSurface);
 
 //Now we loop through all of the tiles in this world chunk and draw them onto the surface.
-var _gridHeight = ds_grid_height(tileGrid);
-var _gridWidth = ds_grid_width(tileGrid);
-var _y = 0;
-var _x = 0;
-var _sprite = noone;
+var _tilesH = ds_grid_height(tileGrid);
+var _tilesW = ds_grid_width(tileGrid);
+var _wallsH = ds_grid_height(terrainWalls);
+var _y, _x, _sprite;
 
-for (_y = 0; _y < _gridHeight; _y++)
+for (_y = 0; _y < _tilesH; _y++)
 {
-	_x = 0;
-	for (_x = 0; _x < _gridWidth; _x++)
+	for (_x = 0; _x < _tilesW; _x++)
 	{
 		//...and draw them.
 		_sprite = ds_grid_get(tileGrid, _x, _y);
@@ -30,5 +28,18 @@ for (_y = 0; _y < _gridHeight; _y++)
 		}
 	}
 }
+
+//Now do the same thing for the walls. The walls only need to go by height.
+for (_y = 0; _y < _wallsH; _y++)
+{
+	_sprite = ds_grid_get(terrainWalls, 0, _y);
+	
+	if (sprite_exists(_sprite))
+	{
+		//TODO: Fix magic numbers.
+		draw_sprite(_sprite, 0, ds_grid_get(terrainWalls, 1, _y), ds_grid_get(terrainWalls, 2, _y));
+	}
+}
+
 
 surface_reset_target();

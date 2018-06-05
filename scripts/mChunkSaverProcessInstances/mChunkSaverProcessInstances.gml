@@ -7,11 +7,12 @@ var _list = instanceList;
 var _CHIDNumber = 0;
 with (all)
 {
-	//Ensure this is not the world chunk saver, a tile, or a device, or the MultiChunkBuilder
+	//Ensure this is not the world chunk saver, a tile, a wall, or a device, or the MultiChunkBuilder
 	if (!object_is_ancestor(object_index, oChunkCreatorTile) 
 	&& object_index != oWorldChunkSaver 
 	&& !object_is_ancestor(object_index, oDevice)
-	&& object_index != oMultiChunkBuilder)
+	&& object_index != oMultiChunkBuilder
+	&& !object_is_ancestor(object_index, oChunkCreatorTerrainWall))
 	{
 		var _instanceMap = ds_map_create();
 		//Store the name of this instance's object type.

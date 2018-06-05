@@ -4,11 +4,17 @@
 ///@arg chunkInfo - The ds_map containing the info to populate the chunk with.
 ///@arg chunkName - The name of this chunk for giving CHIDs.
 
+
 var _loadingWorldChunk = argument0;
 var _chunkX = argument1;
 var _chunkY = argument2;
 var _chunkInfo = argument3;
 var _chunkName = argument4;
+
+if (_chunkX == 1001 && _chunkY == 1001)
+{
+	var _stopHere = true;
+}
 
 
 _loadingWorldChunk.x = _chunkX;
@@ -19,6 +25,7 @@ if (ds_exists(_chunkInfo, ds_type_map))
 {
 	//Grab the string that represents the tilegrid.
 	var _chunkTilesString = ds_map_find_value(_chunkInfo, "chunkTiles");
+	var _chunkTerrainWallsString = ds_map_find_value(_chunkInfo, "terrainWalls");
 	
 	//Destroy the default tile grid plugged into the loading chunk and replace with this one.
 	if (variable_instance_exists(_loadingWorldChunk, "tileGrid") && ds_exists(_loadingWorldChunk.tileGrid, ds_type_grid))
@@ -28,6 +35,7 @@ if (ds_exists(_chunkInfo, ds_type_map))
 	
 	var _newTileGrid = ds_grid_create(16, 16);
 	ds_grid_read(_newTileGrid, _chunkTilesString);
+	
 	
 	
 	
@@ -48,6 +56,24 @@ if (ds_exists(_chunkInfo, ds_type_map))
 			var _value = ds_grid_get(_newTileGrid, _xx, _yy);
 			_sprite = asset_get_index(_value);
 			ds_grid_set(_newTileGrid, _xx, _yy, _sprite);
+		}
+	}
+	
+	
+	//Same thing with the terrain walls. With the walls however, we only replace the first columns. That's where the sprite is.
+	//Wow, this is sloppy. If you see this again, please fucking improve it.	
+	var _newTerrainWallsGrid = ds_grid_create(3, 0);
+
+	if (!is_undefined(_chunkTerrainWallsString))
+	{
+		ds_grid_read(_newTerrainWallsGrid, _chunkTerrainWallsString);
+	
+		_gridHeight = ds_grid_height(_newTerrainWallsGrid);
+		for (var _yy = 0; _yy < _gridHeight; _yy++)
+		{
+				var _value = ds_grid_get(_newTerrainWallsGrid, 0, _yy);
+				_sprite = asset_get_index(_value);
+				ds_grid_set(_newTerrainWallsGrid, 0, _yy, _sprite);
 		}
 	}
 	
@@ -146,4 +172,5 @@ if (ds_exists(_chunkInfo, ds_type_map))
 	
 	//Now we assign this grid so it can't be forgotten.
 	_loadingWorldChunk.tileGrid = _newTileGrid;
+	_loadingWorldChunk.terrainWalls = _newTerrainWallsGrid;
 }

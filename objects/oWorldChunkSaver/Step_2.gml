@@ -1,7 +1,7 @@
 //Save all tiles to the map by their sprite name and index.
 
 //Create out data structures.
-terrainGrid = ds_grid_create(global.chunkWidth / global.tileSize, global.chunkHeight / global.tileSize);
+
 instanceList = ds_list_create();
 
 #region DoesThisEvenGetUsed
@@ -15,6 +15,7 @@ var _deviceMap = noone;
 //Fill the 16x16 grid with the names of terrain sprites. They are properly converted to an asset index on the other side.
 //We don't use the asset index here because we don't know if it will change between now and game runtime.
 mChunkSaverFillTerrainGrid();
+mChunkSaverProcessTerrainWallsAndDec();
 
 //Process all instances into JSON.
 mChunkSaverProcessInstances();

@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "72ec7ade-604d-4568-b180-9e79378e7a34",
+            "Value": {
+                "id": "7bc89b92-db11-439f-ac81-aecb4b452c61",
+                "resourcePath": "scripts\\mChunkSaverProcessTerrainWallsAndDec\\mChunkSaverProcessTerrainWallsAndDec.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "734c1b6b-a0f0-4f10-b6c0-33f31220f0c4",
             "Value": {
                 "id": "e4ed80a1-f628-42b7-b9d4-416d5c0e8bb8",
@@ -3238,6 +3246,7 @@
         "e8f27327-c2d5-437a-947c-1afffd747cd2",
         "fc57d278-8253-4a4b-b249-106488d184b5",
         "bbee6182-b8db-40e9-a89e-ba735006fbde",
+        "72ec7ade-604d-4568-b180-9e79378e7a34",
         "09c8e9df-d179-4241-b2a5-efa425b917e9",
         "214fd523-841b-4fd8-b7c1-320cccf6a28e",
         "6c77a6c1-b351-4db2-ae98-4776b360d2b8",
