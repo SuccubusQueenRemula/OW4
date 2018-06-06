@@ -12,7 +12,8 @@ with (all)
 	&& object_index != oWorldChunkSaver 
 	&& !object_is_ancestor(object_index, oDevice)
 	&& object_index != oMultiChunkBuilder
-	&& !object_is_ancestor(object_index, oChunkCreatorTerrainWall))
+	&& !object_is_ancestor(object_index, oChunkCreatorTerrainWall)
+	&& !object_is_ancestor(object_index, oChunkCreatorTerrainEdge))
 	{
 		var _instanceMap = ds_map_create();
 		//Store the name of this instance's object type.

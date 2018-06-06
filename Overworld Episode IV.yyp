@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "084e70f0-e121-49e7-8da3-79db27de4824",
+            "Value": {
+                "id": "6fcc925e-2bb2-4316-ada6-fe35af23b549",
+                "resourcePath": "scripts\\mMacroChunkFileKeyNames\\mMacroChunkFileKeyNames.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "08b30c23-5335-42b7-8edd-4d31282fdf8f",
             "Value": {
                 "id": "4552b736-bcdb-47d8-9e3e-3ed221a108c4",
@@ -1506,7 +1514,7 @@
             "Key": "72ec7ade-604d-4568-b180-9e79378e7a34",
             "Value": {
                 "id": "7bc89b92-db11-439f-ac81-aecb4b452c61",
-                "resourcePath": "scripts\\mChunkSaverProcessTerrainWallsAndDec\\mChunkSaverProcessTerrainWallsAndDec.yy",
+                "resourcePath": "scripts\\mChunkSaverProcessObjectsAsSpriteLayer\\mChunkSaverProcessObjectsAsSpriteLayer.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2091,6 +2099,14 @@
             "Value": {
                 "id": "99bca8e6-e555-4abb-9180-a8157b5a153c",
                 "resourcePath": "objects\\oTimer\\oTimer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a3c2e78e-d6b0-418a-9ce7-97763a977c35",
+            "Value": {
+                "id": "90b479a3-0649-45c5-b0dd-23dcceedb0cb",
+                "resourcePath": "objects\\oChunkCreatorTerrainEdge\\oChunkCreatorTerrainEdge.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3475,7 +3491,8 @@
         "5b98c0b3-b992-4bae-a199-6639c879aa8d",
         "5b97a056-c14c-443d-992e-3aa91065bb8c",
         "77f869e1-cf9d-4762-93a4-bdc1451e602c",
-        "3a3a6785-1e71-427f-a99f-960fe5a88d36"
+        "3a3a6785-1e71-427f-a99f-960fe5a88d36",
+        "084e70f0-e121-49e7-8da3-79db27de4824"
     ],
     "tutorial": ""
 }

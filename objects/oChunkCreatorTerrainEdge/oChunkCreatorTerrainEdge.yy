@@ -1,14 +1,14 @@
 {
-    "id": "e2898e49-c603-4959-b801-aa30741784ea",
+    "id": "a3c2e78e-d6b0-418a-9ce7-97763a977c35",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oChunkCreatorEdgeGrassRight",
+    "name": "oChunkCreatorTerrainEdge",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "a3c2e78e-d6b0-418a-9ce7-97763a977c35",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2942fffb-1ded-4ff0-980b-e36eba901d6a",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

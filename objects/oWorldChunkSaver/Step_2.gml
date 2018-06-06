@@ -9,13 +9,15 @@ instanceList = ds_list_create();
 var _deviceList = ds_list_create()
 //A reused map that stores an individual device, to be added to the list.
 var _deviceMap = noone;
+ds_list_destroy(_deviceList);
 #endregion
 
 
 //Fill the 16x16 grid with the names of terrain sprites. They are properly converted to an asset index on the other side.
 //We don't use the asset index here because we don't know if it will change between now and game runtime.
 mChunkSaverFillTerrainGrid();
-mChunkSaverProcessTerrainWallsAndDec();
+mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorTerrainWall, CHUNK_FILE_KEYS_TERRAIN_WALLS);
+mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorTerrainEdge, CHUNK_FILE_KEYS_TERRAIN_EDGE);
 
 //Process all instances into JSON.
 mChunkSaverProcessInstances();
