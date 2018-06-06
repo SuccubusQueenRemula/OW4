@@ -54,7 +54,7 @@ for (var _i = 0; _i < _size; _i++)
 	//Now, if this is an object device, we assign its parent to be this chunk.
 	if (object_is_ancestor(_createdInstance.object_index, oDevice))
 	{
-		_createdInstance.parentChunk = _loadingWorldChunk;	
+		_createdInstance.parentChunk = _chunk;	
 	}
 	#endregion Device
 		
