@@ -25,13 +25,15 @@ if (ds_exists(_chunkInfo, ds_type_map))
 {
 	//Grab the strings which represent the various bits of data.
 	var _chunkTilesString = ds_map_find_value(_chunkInfo, "chunkTiles");
-	var _chunkTerrainWallsString = ds_map_find_value(_chunkInfo, "terrainWalls");	
+	var _chunkTerrainWallsString = ds_map_find_value(_chunkInfo, CHUNK_FILE_KEYS_TERRAIN_WALLS);
+	var _chunkTerrainEdgesString = ds_map_find_value(_chunkInfo, CHUNK_FILE_KEYS_TERRAIN_EDGE);
 	var _instanceListString = ds_map_find_value(_chunkInfo, "chunkInstances");
 	
 	
 	
 	mChunkLoaderPopulateTerrainTiles(_loadingWorldChunk, _chunkTilesString);
 	mChunkLoaderPopulateTerrainWalls(_loadingWorldChunk, _chunkTerrainWallsString);
+	mChunkLoaderPopulateTerrainEdges(_loadingWorldChunk, _chunkTerrainEdgesString);
 	mChunkLoaderPopulateInstancesAll(_loadingWorldChunk, _instanceListString, _chunkX, _chunkY, _chunkName);
 	
 }

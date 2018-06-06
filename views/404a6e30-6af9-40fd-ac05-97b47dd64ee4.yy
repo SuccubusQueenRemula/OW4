@@ -6,7 +6,8 @@
     "children": [
         "f2019d7a-22c0-4a48-806b-7b677d864cd4",
         "e84ac624-fc59-4a47-a08b-55b215c05c76",
-        "cf315a90-50ee-4037-a3f3-25a957bdb817"
+        "cf315a90-50ee-4037-a3f3-25a957bdb817",
+        "211d18a7-3e3e-4674-af80-b9b7627eb1c8"
     ],
     "filterType": "GMObject",
     "folderName": "Terrain",

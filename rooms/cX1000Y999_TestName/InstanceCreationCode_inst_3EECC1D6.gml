@@ -1,1 +1,0 @@
-mSaveConversationNPC("Bill", "Bill here. What's up?", sTestDirt);

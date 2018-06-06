@@ -13,8 +13,7 @@
         "70a9e0e4-8207-465a-b3a7-e3ea17c658f2",
         "37ea1794-00c5-4d9c-ab3b-3e54491a08c1",
         "bcc82f60-1544-4b77-9a3b-173e2cdae584",
-        "adcbd2a7-0386-4d2d-9cc7-83b70c73ffb1",
-        "a3c2e78e-d6b0-418a-9ce7-97763a977c35"
+        "adcbd2a7-0386-4d2d-9cc7-83b70c73ffb1"
     ],
     "filterType": "GMObject",
     "folderName": "Edges",

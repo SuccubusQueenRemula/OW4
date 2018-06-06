@@ -12,6 +12,7 @@ surface_set_target(terrainSurface);
 var _tilesH = ds_grid_height(tileGrid);
 var _tilesW = ds_grid_width(tileGrid);
 var _wallsH = ds_grid_height(terrainWalls);
+var _edgesH = ds_grid_height(terrainEdges);
 var _y, _x, _sprite;
 
 for (_y = 0; _y < _tilesH; _y++)
@@ -29,6 +30,19 @@ for (_y = 0; _y < _tilesH; _y++)
 	}
 }
 
+//Now do the same thing for the edges. The walls only need to go by height.
+for (_y = 0; _y < _edgesH; _y++)
+{
+	_sprite = ds_grid_get(terrainEdges, 0, _y);
+	
+	if (sprite_exists(_sprite))
+	{
+		//TODO: Fix magic numbers.
+		draw_sprite(_sprite, 0, ds_grid_get(terrainEdges, 1, _y), ds_grid_get(terrainEdges, 2, _y));
+	}
+}
+
+
 //Now do the same thing for the walls. The walls only need to go by height.
 for (_y = 0; _y < _wallsH; _y++)
 {
@@ -40,6 +54,7 @@ for (_y = 0; _y < _wallsH; _y++)
 		draw_sprite(_sprite, 0, ds_grid_get(terrainWalls, 1, _y), ds_grid_get(terrainWalls, 2, _y));
 	}
 }
+
 
 
 surface_reset_target();

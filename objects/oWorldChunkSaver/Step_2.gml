@@ -18,6 +18,10 @@ ds_list_destroy(_deviceList);
 mChunkSaverFillTerrainGrid();
 mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorTerrainWall, CHUNK_FILE_KEYS_TERRAIN_WALLS);
 mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorTerrainEdge, CHUNK_FILE_KEYS_TERRAIN_EDGE);
+mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorTerrainDecorum, CHUNK_FILE_KEYS_TERRAIN_DECORUM);
+mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorOverheadWalls, CHUNK_FILE_KEYS_OVERHEAD_WALLS);
+mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorOverheadRoofs, CHUNK_FILE_KEYS_OVERHEAD_ROOFS);
+mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorOverheadDecorum, CHUNK_FILE_KEYS_OVERHEAD_DECORUM);
 
 //Process all instances into JSON.
 mChunkSaverProcessInstances();

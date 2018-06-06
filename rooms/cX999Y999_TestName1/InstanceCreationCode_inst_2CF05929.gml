@@ -1,1 +1,0 @@
-mSaveConversationNPC("Adette", "Hello, I am Adette.", sAdettePortraitOLD);
