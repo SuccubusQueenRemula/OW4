@@ -1,4 +1,5 @@
-tileGrid = ds_grid_create(16, 16);
+tileGrid = noone;
+terrainWalls = noone;
 instanceList = ds_list_create();
 instanceMap = ds_map_create();
 depth = 14999;

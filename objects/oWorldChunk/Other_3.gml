@@ -13,6 +13,11 @@ if (ds_exists(instanceMap, ds_type_map))
 	ds_map_destroy(instanceMap);
 }
 
+if (ds_exists(terrainWalls, ds_type_grid))
+{
+	ds_grid_destroy(terrainWalls);
+}
+
 if (surface_exists(terrainSurface))
 {
 	surface_free(terrainSurface);

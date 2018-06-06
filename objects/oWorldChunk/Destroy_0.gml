@@ -8,15 +8,15 @@ if (ds_exists(tileGrid, ds_type_grid))
 	ds_grid_destroy(tileGrid);
 }
 
+if (ds_exists(terrainWalls, ds_type_grid))
+{
+	ds_grid_destroy(terrainWalls);
+}
+
 if (ds_exists(instanceMap, ds_type_map))
 {
 	ds_map_destroy(instanceMap);
 }
-
-instance_destroy(rightBorder);
-instance_destroy(leftBorder);
-instance_destroy(topBorder);
-instance_destroy(bottomBorder);
 
 //Destroy any devices that had this chunk assigned as the parent.
 var _chunk = id;

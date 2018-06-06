@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "0a030a93-f829-4293-86c7-55903178b29c",
+            "Value": {
+                "id": "cb450ef0-2cc7-47c8-b012-b06bda19da9f",
+                "resourcePath": "scripts\\mChunkLoaderPopulateTerrainWalls\\mChunkLoaderPopulateTerrainWalls.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0a3987f4-2375-4da7-b123-fa706fbf62c8",
             "Value": {
                 "id": "f05878d1-1781-4cbd-b7c1-bc760a767c9f",
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "110c0333-9abc-486f-b6d8-c9524636a300",
+            "Value": {
+                "id": "b8088e73-4b0b-44bc-afbc-628a40665708",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassTopLeft\\oChunkCreatorEdgeGrassTopLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11290bc2-b78d-4b5c-91b6-2b85cc645905",
             "Value": {
                 "id": "ae6ac69b-61c8-47cf-a391-8723e27a489a",
@@ -380,6 +396,14 @@
                 "id": "ccc5b121-0804-4672-9d99-feff41911d0f",
                 "resourcePath": "sprites\\sTarget\\sTarget.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "18b800f1-250b-4f93-8c3a-14a89e127797",
+            "Value": {
+                "id": "89323148-31fe-4fb1-a99f-04b74fcbefea",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassTop\\oChunkCreatorEdgeGrassTop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -551,6 +575,14 @@
             }
         },
         {
+            "Key": "2942fffb-1ded-4ff0-980b-e36eba901d6a",
+            "Value": {
+                "id": "70523026-2997-4c97-99f2-339dd5db5750",
+                "resourcePath": "sprites\\sTileEdgeGrassRight\\sTileEdgeGrassRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "298803b4-6aab-40c8-82ff-66a9e8f58433",
             "Value": {
                 "id": "5193cb27-9fde-45f4-9c4a-4d412cc997e4",
@@ -703,6 +735,14 @@
             }
         },
         {
+            "Key": "37ea1794-00c5-4d9c-ab3b-3e54491a08c1",
+            "Value": {
+                "id": "c0f0daba-31fd-4bfd-8781-fcbef83ab22e",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassBottomRight\\oChunkCreatorEdgeGrassBottomRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "38994b90-c90d-463e-b45f-86b96b799cba",
             "Value": {
                 "id": "b96b87ab-4a42-4a2a-a91a-264145005744",
@@ -796,6 +836,14 @@
                 "id": "45961b07-56eb-4edb-b81c-19b12f3bd388",
                 "resourcePath": "datafiles_yy\\World\\X999Y998.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "40e11b41-aca9-4b70-ae57-e1fe42cdf299",
+            "Value": {
+                "id": "ea81d2af-25d1-4e8a-84f9-90d41a9573bf",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassBottom\\oChunkCreatorEdgeGrassBottom.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -983,6 +1031,14 @@
             }
         },
         {
+            "Key": "4f90c767-8b83-4bf8-b72b-504464a5b8a4",
+            "Value": {
+                "id": "c0b9c085-1e10-4a6b-b8a8-101daf054633",
+                "resourcePath": "sprites\\sTileEdgeGrassTopLeft\\sTileEdgeGrassTopLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ffbd4b6-393f-40fe-9de3-1a60c9c10a98",
             "Value": {
                 "id": "4df53e5f-8d1a-4e38-a7b8-58020b66a782",
@@ -1084,6 +1140,14 @@
                 "id": "2c321cb0-9b72-490f-8c34-d71c631a4535",
                 "resourcePath": "scripts\\mCreateSingleton\\mCreateSingleton.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "56b49aee-fdb4-4f00-9641-47b5f236401f",
+            "Value": {
+                "id": "2e00cede-0dfa-4b5c-86c8-3bf58e8c4eff",
+                "resourcePath": "sprites\\sTileEdgeGrassBottomLeft\\sTileEdgeGrassBottomLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1231,6 +1295,14 @@
             }
         },
         {
+            "Key": "60a4dd36-ec77-412a-97bc-56df889ea75e",
+            "Value": {
+                "id": "f7247e1c-985e-4864-9415-657a1ef17616",
+                "resourcePath": "scripts\\mChunkLoaderPopulateTerrainTiles\\mChunkLoaderPopulateTerrainTiles.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "60f69c31-9966-4223-9179-77ffaa7723bf",
             "Value": {
                 "id": "fb89f36a-7f8d-4a22-b54b-11308e291fe5",
@@ -1308,6 +1380,14 @@
                 "id": "b8d7935e-827c-41fe-9c37-1370e908c1d9",
                 "resourcePath": "scripts\\mAddItemToInventory\\mAddItemToInventory.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "667667b5-c989-4177-beb0-053f455cee30",
+            "Value": {
+                "id": "2fc97311-72fb-46b3-b099-6c85fea027bf",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassLeft\\oChunkCreatorEdgeGrassLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1395,6 +1475,22 @@
             "Value": {
                 "id": "2dc61820-b682-43f5-a887-4e77b30b96b0",
                 "resourcePath": "views\\4f0554f9-4e29-4736-b61c-6115aa2c47e2-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "70a9e0e4-8207-465a-b3a7-e3ea17c658f2",
+            "Value": {
+                "id": "a36325ac-a263-4023-96dd-a463003a5a42",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassBottomLeft\\oChunkCreatorEdgeGrassBottomLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "711e6343-ccd3-4e9b-b52e-bafd269075d3",
+            "Value": {
+                "id": "5ccea4cb-b204-47ed-99b5-f55e3909dbc0",
+                "resourcePath": "views\\711e6343-ccd3-4e9b-b52e-bafd269075d3.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1911,11 +2007,27 @@
             }
         },
         {
+            "Key": "9b9344e4-88c0-427e-8cf6-ea0454d91314",
+            "Value": {
+                "id": "258d0cae-46c8-48d0-9c86-6023c0efaf78",
+                "resourcePath": "sprites\\sTileEdgeGrassLeft\\sTileEdgeGrassLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b93891f-5361-42db-9b00-eee0bb6143c1",
             "Value": {
                 "id": "66ccc4a9-fa02-4228-a1bf-5744cf2d01a6",
                 "resourcePath": "datafiles_yy\\World\\X1000Y1001.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9ed1bbb2-a61c-4a45-b014-64793afe9698",
+            "Value": {
+                "id": "0e90000c-4672-4d5c-861c-f44a361db5c5",
+                "resourcePath": "sprites\\sTileEdgeGrassVerticals\\sTileEdgeGrassVerticals.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1959,6 +2071,22 @@
             }
         },
         {
+            "Key": "a248caa5-7116-4786-ac16-90ac304e9442",
+            "Value": {
+                "id": "68c948ae-b12f-4377-a2c1-51ec73fd99cd",
+                "resourcePath": "scripts\\mChunkLoaderPopulateInstancesAll\\mChunkLoaderPopulateInstancesAll.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a25e282b-c0b8-4cb9-a21d-91fecaefc272",
+            "Value": {
+                "id": "29552213-efd2-4190-b9cb-88cbba674edb",
+                "resourcePath": "sprites\\sTileEdgeGrassTop\\sTileEdgeGrassTop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a35dda1d-290a-4dd3-b30f-8040827d3ce5",
             "Value": {
                 "id": "99bca8e6-e555-4abb-9180-a8157b5a153c",
@@ -1972,6 +2100,14 @@
                 "id": "0dcf9777-9600-4376-abda-707c2a4b439f",
                 "resourcePath": "scripts\\mDealDamage\\mDealDamage.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a3f34443-25ac-455c-852a-b2a13821e0d3",
+            "Value": {
+                "id": "b7a2ace1-e7b7-4f3d-9516-a098a0fc3f71",
+                "resourcePath": "views\\a3f34443-25ac-455c-852a-b2a13821e0d3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2095,6 +2231,14 @@
             }
         },
         {
+            "Key": "adcbd2a7-0386-4d2d-9cc7-83b70c73ffb1",
+            "Value": {
+                "id": "84e2322a-a08c-41b5-8148-c8ad0265d7e5",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassHorizontals\\oChunkCreatorEdgeGrassHorizontals.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ae0742e5-eae0-4ddb-a57e-3643cefb6677",
             "Value": {
                 "id": "b751d63c-2151-47bd-8219-4433c4642901",
@@ -2115,6 +2259,14 @@
             "Value": {
                 "id": "d609e02f-0f93-4484-96cb-2b0fa8748a28",
                 "resourcePath": "sprites\\sWorldChunkStatus\\sWorldChunkStatus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b1e865a7-4f10-4bf3-9aa0-32c4e461fbd6",
+            "Value": {
+                "id": "39f20ee9-adae-49fe-97df-baad932460f4",
+                "resourcePath": "sprites\\sTileEdgeGrassBottom\\sTileEdgeGrassBottom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2291,6 +2443,14 @@
             "Value": {
                 "id": "f32eedfc-24c2-4718-a3fe-63bb919df3d2",
                 "resourcePath": "objects\\oChunkBorderTopRight\\oChunkBorderTopRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bcc82f60-1544-4b77-9a3b-173e2cdae584",
+            "Value": {
+                "id": "192a6727-4a2f-4ea5-885f-919f4b11a355",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassVerticals\\oChunkCreatorEdgeGrassVerticals.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2535,6 +2695,14 @@
             }
         },
         {
+            "Key": "cf315a90-50ee-4037-a3f3-25a957bdb817",
+            "Value": {
+                "id": "5834da1a-8410-4bc8-9536-3b2f5038772c",
+                "resourcePath": "views\\cf315a90-50ee-4037-a3f3-25a957bdb817.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cfb074c3-30ae-4759-906d-b15dbee9d9e7",
             "Value": {
                 "id": "e0837a61-6d62-4486-ad73-0aad0ed8d619",
@@ -2604,6 +2772,14 @@
                 "id": "715eb76b-bb70-4de5-8872-2d7366fcdc3c",
                 "resourcePath": "objects\\oCamera\\oCamera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4f2c7a4-a1ed-4c23-95de-9377e2ca814e",
+            "Value": {
+                "id": "462ca8a0-7a8d-472b-9b7b-fd5121c60d3d",
+                "resourcePath": "sprites\\sTileEdgeGrassTopRight\\sTileEdgeGrassTopRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2711,6 +2887,14 @@
             }
         },
         {
+            "Key": "db52c110-dd57-4a39-9ab0-b72df2604fe1",
+            "Value": {
+                "id": "bd70cd84-e497-4d11-af07-1ed0723f2b12",
+                "resourcePath": "views\\db52c110-dd57-4a39-9ab0-b72df2604fe1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dc3e9914-d625-48a0-b29c-e61021da40ee",
             "Value": {
                 "id": "f055cb85-57a9-4e81-910f-3713ba86b73d",
@@ -2799,11 +2983,27 @@
             }
         },
         {
+            "Key": "e2898e49-c603-4959-b801-aa30741784ea",
+            "Value": {
+                "id": "44b61ce5-0182-4a54-a3bc-e25218c49b5a",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassRight\\oChunkCreatorEdgeGrassRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e392dc28-f332-493b-9803-32147c0eda14",
             "Value": {
                 "id": "28c7b051-f90d-453a-bdea-421fd49b9028",
                 "resourcePath": "views\\e392dc28-f332-493b-9803-32147c0eda14.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e3a9f8f4-cc89-49c9-82d6-9a608163aaa2",
+            "Value": {
+                "id": "58d47a02-af46-44e7-8287-edf2c5ebb4f5",
+                "resourcePath": "objects\\oChunkCreatorEdgeGrassTopRight\\oChunkCreatorEdgeGrassTopRight.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2871,6 +3071,14 @@
             }
         },
         {
+            "Key": "eb9cbc1c-6557-401f-aa51-eb5cb420702f",
+            "Value": {
+                "id": "e196fbd4-17ae-4e45-a09b-70f0289ec0e3",
+                "resourcePath": "sprites\\sTileEdgeGrassBottomRight\\sTileEdgeGrassBottomRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ec35ede8-faf7-4a81-9fe1-314bd453936f",
             "Value": {
                 "id": "000f3e2f-4a94-4645-af4c-05b8a897c7de",
@@ -2900,6 +3108,14 @@
                 "id": "9a7bbc7e-d96d-43bc-a3cc-a220a4782ee0",
                 "resourcePath": "views\\ed2ecada-57d9-4ac6-ae9d-7cc616f016b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "edb51d2d-f86d-4d98-b662-7e43f767ebe9",
+            "Value": {
+                "id": "8ad16d79-fa56-4ee4-9176-ba2a38b82301",
+                "resourcePath": "sprites\\sprite74\\sprite74.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2948,14 +3164,6 @@
                 "id": "c64a6c07-3235-43ed-8e97-658d29fb9f6e",
                 "resourcePath": "scripts\\mStringSplit\\mStringSplit.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f1fcb2cd-d7b2-4cec-902e-86ad0f51fb70",
-            "Value": {
-                "id": "224ff3f9-191b-4798-af29-7d5eaf3e8b7c",
-                "resourcePath": "datafiles_yy\\World\\X1002Y1001.json.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3028,6 +3236,14 @@
                 "id": "6f7f7524-6860-4499-b266-3ec374892fee",
                 "resourcePath": "datafiles_yy\\NPC Conversations\\Bill.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f776d1e5-b3b6-47c8-9c09-8d67c2fb030a",
+            "Value": {
+                "id": "54c5efa9-97df-4a15-aadd-de6b500678d9",
+                "resourcePath": "sprites\\sTileEdgeGrassHorizontals\\sTileEdgeGrassHorizontals.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3237,6 +3453,9 @@
         "013ab32b-5906-415b-a7f2-93b737ff3f51",
         "7786f4ba-9333-4b99-b00c-2284d5ab365f",
         "11290bc2-b78d-4b5c-91b6-2b85cc645905",
+        "a248caa5-7116-4786-ac16-90ac304e9442",
+        "60a4dd36-ec77-412a-97bc-56df889ea75e",
+        "0a030a93-f829-4293-86c7-55903178b29c",
         "c977c1a2-dba1-41f2-9625-db6d014bc13f",
         "4ffbd4b6-393f-40fe-9de3-1a60c9c10a98",
         "5aa3e290-0e61-4093-8a54-9ac373b5c190",
