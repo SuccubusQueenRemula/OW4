@@ -5,7 +5,7 @@ if (applySurface)
 	
 	with (loadingWorldChunk)
 	{
-		
+		draw = true;
 		mDrawTerrainToSurface();
 		
 	}

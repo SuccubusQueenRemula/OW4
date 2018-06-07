@@ -62,6 +62,7 @@ with (oWorldHandler)
 			//Now we can create the chunk and add it to the grid.
 			_chunk = instance_create_depth(((_x - 1) * global.chunkWidth) + global.worldChunkOffsetX, ((_y - 1) * global.chunkHeight) + global.worldChunkOffsetY, 16000, oWorldChunk);
 			ds_grid_set(worldChunks, _x, _y, _chunk);
+			_chunk.draw = true;
 			
 			//Assign the chunk to the proper coordinates.
 			//var _xx = global.worldChunkOffsetX + ((_x - 1) * global.chunkWidth);
@@ -80,6 +81,7 @@ with (oWorldHandler)
 			with (_cl)
 			{
 				mChangeListApplyChanges(_chunk);
+				instance_deactivate_object(_cl);
 			}
 			
 		}

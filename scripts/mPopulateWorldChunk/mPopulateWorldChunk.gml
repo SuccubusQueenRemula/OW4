@@ -34,6 +34,7 @@ if (ds_exists(_chunkInfo, ds_type_map))
 	mChunkLoaderPopulateTerrainTiles(_loadingWorldChunk, _chunkTilesString);
 	mChunkLoaderPopulateTerrainWalls(_loadingWorldChunk, _chunkTerrainWallsString);
 	mChunkLoaderPopulateTerrainEdges(_loadingWorldChunk, _chunkTerrainEdgesString);
+	mChunkLoaderPopulateOverheadRoofs();
 	mChunkLoaderPopulateInstancesAll(_loadingWorldChunk, _instanceListString, _chunkX, _chunkY, _chunkName);
 	
 }

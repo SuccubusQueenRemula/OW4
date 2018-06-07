@@ -1,6 +1,14 @@
 //This surface contains a picture of all the terrain.
 
-if (!surface_exists(terrainSurface))
+
+if (draw)
 {
-	terrainSurface = surface_create(global.chunkWidth, global.chunkHeight);
+
+	if (!surface_exists(terrainSurface))
+	{
+		mDrawTerrainToSurface();
+	}
+					
+	draw_surface(terrainSurface, x, y);
+
 }

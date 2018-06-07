@@ -53,12 +53,7 @@ for (var _wy = 0; _wy < _worldHeight; _wy++)
 				
 				//if (_draw)
 				//{
-					if (!surface_exists(terrainSurface))
-					{
-						mDrawTerrainToSurface();
-					}
 					
-					draw_surface(terrainSurface, x, y);
 					
 			//	}
 			}

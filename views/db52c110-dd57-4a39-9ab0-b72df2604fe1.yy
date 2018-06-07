@@ -8,7 +8,8 @@
         "a248caa5-7116-4786-ac16-90ac304e9442",
         "60a4dd36-ec77-412a-97bc-56df889ea75e",
         "0a030a93-f829-4293-86c7-55903178b29c",
-        "0092c1f9-e578-4fc0-a089-3ac295b98bc4"
+        "0092c1f9-e578-4fc0-a089-3ac295b98bc4",
+        "3641ef05-8aff-4d39-a0c5-3e82f5a38b6e"
     ],
     "filterType": "GMScript",
     "folderName": "Chunk Population",
