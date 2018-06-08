@@ -6,9 +6,9 @@
     "children": [
         "64dc9a51-c7da-46a5-922a-c18d08d3dfb3",
         "a710857e-9041-43bf-bfcf-44cf44defe0d",
+        "7c1f658f-c99a-40aa-8607-fa31cf305c87",
         "b8a42acc-9a02-4b1f-a8eb-5dde6e300677",
-        "484b8fc0-b412-4fb7-b169-42965c168bcb",
-        "7c1f658f-c99a-40aa-8607-fa31cf305c87"
+        "484b8fc0-b412-4fb7-b169-42965c168bcb"
     ],
     "filterType": "GMObject",
     "folderName": "World Gen",

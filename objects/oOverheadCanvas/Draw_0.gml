@@ -1,12 +1,12 @@
 if (draw)
 {
-	if (surface_exists(surface))
+	if (!surface_exists(surface))
 	{
-		
+		mDrawOverheadToSurface();
 	}
-	else
-	{
-		surface_set_target(surface)
-		draw_surface(surface, x, y);
-	}
+
+	//x = owner.x;
+	//y = owner.y;
+	draw_surface(surface, x, y);
+	
 }

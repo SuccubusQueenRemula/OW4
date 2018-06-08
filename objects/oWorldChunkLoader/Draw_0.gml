@@ -9,6 +9,12 @@ if (applySurface)
 		mDrawTerrainToSurface();
 		
 	}
+	
+	with (loadingWorldChunk.overheadCanvas)
+	{
+		draw = true;
+		mDrawOverheadToSurface();
+	}
 
 	
 	applySurface = false;

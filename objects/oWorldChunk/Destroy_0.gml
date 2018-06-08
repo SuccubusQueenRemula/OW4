@@ -32,3 +32,6 @@ if (surface_exists(terrainSurface))
 {
 	surface_free(terrainSurface);
 }
+
+
+instance_destroy(overheadCanvas);

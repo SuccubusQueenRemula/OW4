@@ -51,5 +51,18 @@ with (oWorldHandler)
 		global.worldChunkOffsetY = _centerChunk.y;
 	//	mPurgeUnloadZones(_centerChunk);
 		mCreateWorldChunkBorders(_centerChunk);
+		
+		for (var _y = 0; _y < _h; _y++)
+		{
+			for (var _x = 0; _x < _w; _x++)
+			{
+				//Get the item at this node.
+				var _content = ds_grid_get(worldChunks, _x, _y);
+				//Calculate new coords for this item.
+				var _xx = global.worldChunkOffsetX + ((_x - 1) * global.chunkWidth);
+				var _yy = global.worldChunkOffsetY + ((_y - 1) * global.chunkHeight);
+				mUpdateWorldGridNodePos(_content, _xx, _yy);
+			}
+		}
 	}
 }

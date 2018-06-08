@@ -54,7 +54,7 @@ for (_y = _h - 1; _y > - 1; _y--)
 		else 
 		{
 			if (_y == _h - 1 || _x == 0)
-			{		
+			{		 
 				_workingChunk = ds_grid_get(_worldGrid, _x, _y);
 				instance_destroy(_workingChunk);
 			}
