@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "1204eebf-93a7-496a-8a89-291db16a0f25",
+            "Value": {
+                "id": "d1180ef3-9697-40de-9bb7-49e5ba53154d",
+                "resourcePath": "sprites\\sOverheadParallaxContainer\\sOverheadParallaxContainer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "134825cb-c88c-4eee-834b-3621d14cc098",
             "Value": {
                 "id": "6cb988f6-75a7-433a-8b17-3e3fcb3d5cb2",
@@ -1735,6 +1743,14 @@
             }
         },
         {
+            "Key": "7fe7d2ac-6947-49de-8188-81246a726603",
+            "Value": {
+                "id": "d63d63ec-fc2b-4ea0-8952-6185ea74d439",
+                "resourcePath": "objects\\oOverheadParallaxContainer\\oOverheadParallaxContainer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8018b277-fdbc-46bd-94ec-7650cfaa9e29",
             "Value": {
                 "id": "b31b7699-7765-45cd-be35-1928b6e3afee",
@@ -2116,6 +2132,14 @@
                 "id": "f02b54e1-79d3-4069-9e47-2cbf391201b0",
                 "resourcePath": "views\\99a413f1-ef0c-4633-8b05-a9442a5a3fef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "99ddb33e-d3c5-4dd6-b687-b3cbb98b5f42",
+            "Value": {
+                "id": "8b5c60c4-3ba1-44e5-b5af-17bd7c894e90",
+                "resourcePath": "objects\\oOverheadParallaxContainer1\\oOverheadParallaxContainer1.yy",
+                "resourceType": "GMObject"
             }
         },
         {

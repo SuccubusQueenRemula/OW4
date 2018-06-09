@@ -26,7 +26,6 @@ for (_y = _h - 1; _y > - 1; _y--)
 {
 	for (_x = 0; _x < _w; _x++)
 	{
-					
 		//In the special case of the topleft and bottom right cells...
 		if ((_y == 0 && _x == 0) || (_y == _h - 1 && _x == _w - 1))
 		{

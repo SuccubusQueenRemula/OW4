@@ -17,11 +17,11 @@ overheadCanvas.owner = id;
 
 
 
-leftBorder = noone;
-rightBorder = noone;
-topBorder = noone;
-bottomBorder = noone;
-topLeftBorder = noone;
-topRightBorder = noone;
-bottomLeftBorder = noone;
-bottomRightBorder = noone;
+//leftBorder = noone;
+//rightBorder = noone;
+//topBorder = noone;
+//bottomBorder = noone;
+//topLeftBorder = noone;
+//topRightBorder = noone;
+//bottomLeftBorder = noone;
+//bottomRightBorder = noone;
