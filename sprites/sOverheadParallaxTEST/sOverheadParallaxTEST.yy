@@ -2,7 +2,7 @@
     "id": "124bc0d5-9a17-4453-8989-f68f9a814e96",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sOverheadParallaxTEST2",
+    "name": "sOverheadParallaxTEST",
     "For3D": false,
     "HTile": false,
     "VTile": false,
