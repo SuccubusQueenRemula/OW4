@@ -711,14 +711,6 @@
             }
         },
         {
-            "Key": "2dbd06ac-0a65-405e-a92c-8af071148cf4",
-            "Value": {
-                "id": "aa83494a-5f29-420a-a016-8dcf7399ff5e",
-                "resourcePath": "sprites\\sOvereadParallaxTest\\sOvereadParallaxTest.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2f104a2b-d5eb-422b-90c0-b2e8b8a4a6cb",
             "Value": {
                 "id": "12120522-3e21-4847-953b-2da9f576a206",
