@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "124bc0d5-9a17-4453-8989-f68f9a814e96",
+            "Value": {
+                "id": "4653209f-429f-4f04-b9f2-43a33fbb5db4",
+                "resourcePath": "sprites\\sOverheadParallaxTEST2\\sOverheadParallaxTEST2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "134825cb-c88c-4eee-834b-3621d14cc098",
             "Value": {
                 "id": "6cb988f6-75a7-433a-8b17-3e3fcb3d5cb2",
