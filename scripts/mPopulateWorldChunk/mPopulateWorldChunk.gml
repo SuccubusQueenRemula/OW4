@@ -29,6 +29,7 @@ if (ds_exists(_chunkInfo, ds_type_map))
 	var _chunkTerrainEdgesString = ds_map_find_value(_chunkInfo, CHUNK_FILE_KEYS_TERRAIN_EDGE);
 	var _chunkOverheadRoofsString = ds_map_find_value(_chunkInfo, CHUNK_FILE_KEYS_OVERHEAD_ROOFS);
 	var _instanceListString = ds_map_find_value(_chunkInfo, "chunkInstances");
+	var _parallaxString = ds_map_find_value(_chunkInfo, CHUNK_FILE_KEYS_OVERHEAD_PARALLAX);
 	
 	
 	
@@ -36,6 +37,7 @@ if (ds_exists(_chunkInfo, ds_type_map))
 	mChunkLoaderPopulateTerrainWalls(_loadingWorldChunk, _chunkTerrainWallsString);
 	mChunkLoaderPopulateTerrainEdges(_loadingWorldChunk, _chunkTerrainEdgesString);
 	mChunkLoaderPopulateOverheadRoofs(_loadingWorldChunk.overheadCanvas, _chunkOverheadRoofsString);
+	mChunkLoaderPopulateOverheadParallax(_loadingWorldChunk.overheadParallaxCanvas, _parallaxString);
 	mChunkLoaderPopulateInstancesAll(_loadingWorldChunk, _instanceListString, _chunkX, _chunkY, _chunkName);
 	
 }

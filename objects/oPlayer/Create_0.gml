@@ -28,8 +28,8 @@ maxHealth = 10;
 currentHealth = maxHealth;
 faceDirection = faceDirections.down;
 playerState = playerStates.move;
-moveSpeed = 8;
-baseMoveSpeed = 8;
+moveSpeed = 4;
+baseMoveSpeed = 4;
 
 x = room_width/2;
 y = room_height/2;

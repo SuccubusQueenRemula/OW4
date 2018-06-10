@@ -27,9 +27,6 @@ mCreateSingleton(oInputHandler);
 mCreateSingleton(oMasterDraw);
 mCreateSingleton(oChangeListHandler);
 mCreateSingleton(oTimer);
-if (true)
-{
-	mCreateSingleton(oCamera);
-}
+mCreateSingleton(oCamera);
 mDeleteDuplicateSingletons();
 

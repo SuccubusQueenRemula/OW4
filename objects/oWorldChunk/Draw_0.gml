@@ -12,3 +12,8 @@ if (draw)
 	draw_surface(terrainSurface, x, y);
 
 }
+
+if (global.debugMode)
+{
+	draw_rectangle(x, y, x + 20, y + 20, false);
+}

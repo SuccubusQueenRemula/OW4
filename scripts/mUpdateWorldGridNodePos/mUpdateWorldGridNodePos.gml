@@ -18,6 +18,8 @@ if (_content.object_index == oWorldChunkLoader)
 	_content.loadingWorldChunk.y = _y;
 	_content.loadingWorldChunk.overheadCanvas.x = _x;
 	_content.loadingWorldChunk.overheadCanvas.y = _y;
+	//_content.loadingWorldChunk.overheadParallaxCanvas.x = _x + global.worldChunkOffsetX * 2;
+	//_content.loadingWorldChunk.overheadParallaxCanvas.y = _y + global.worldChunkOffsetY * 2;
 	
 }
 
@@ -25,4 +27,6 @@ else if (_content.object_index == oWorldChunk)
 {
 	_content.overheadCanvas.x = _x;
 	_content.overheadCanvas.y = _y;
+//	_content.overheadParallaxCanvas.x = _x - 512;
+	//_content.overheadParallaxCanvas.y = _y - 512;
 }

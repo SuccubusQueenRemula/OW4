@@ -5,8 +5,6 @@ if (draw)
 		mDrawOverheadToSurface();
 	}
 
-	//x = owner.x;
-	//y = owner.y;
 	draw_surface(surface, x, y);
 	
 }

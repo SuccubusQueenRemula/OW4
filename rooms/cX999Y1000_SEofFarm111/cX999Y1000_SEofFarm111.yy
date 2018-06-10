@@ -392,14 +392,15 @@
         "68eabd6c-e772-4c17-b2f1-79f87cff3fc9",
         "4cf069da-457f-41bb-bf3e-b5a7ba7f31a4",
         "cb0bc923-24f4-475f-a2c5-4bbbce68cd36",
-        "4049049d-65f9-4221-88ca-84a8931fed2b"
+        "4049049d-65f9-4221-88ca-84a8931fed2b",
+        "f1defb57-eba9-4062-aee0-ff1ba0d6a619"
     ],
     "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "OverheadParallax",
-            "id": "08f30312-f49a-45bc-91ba-a0321d284480",
+            "name": "Instances_1",
+            "id": "8d14b222-92ae-4272-a3b8-36296cc0e768",
             "depth": 0,
             "grid_x": 32,
             "grid_y": 32,
@@ -410,7 +411,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_43C54672","id": "4049049d-65f9-4221-88ca-84a8931fed2b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_43C54672","objId": "7fe7d2ac-6947-49de-8188-81246a726603","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -513,"y": -513}
+
             ],
             "layers": [
 
@@ -424,9 +425,36 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "OverheadParallax",
+            "id": "08f30312-f49a-45bc-91ba-a0321d284480",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": false,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_43C54672","id": "4049049d-65f9-4221-88ca-84a8931fed2b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_43C54672","objId": "7fe7d2ac-6947-49de-8188-81246a726603","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -513,"y": -513},
+{"name": "inst_29BBF245","id": "f1defb57-eba9-4062-aee0-ff1ba0d6a619","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_29BBF245","objId": "b552452f-5a00-4232-99e7-9cc8f76f217a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -512,"y": -512}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": false
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "OverheadDecorum",
             "id": "5a51f0db-00af-4c62-b843-b9cb5dd75b51",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -452,7 +480,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "OverheadRoofs",
             "id": "f17cdcbf-a0a4-4e66-a225-ee0883b01fb1",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -504,7 +532,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "OverheadWalls",
             "id": "651c35e8-0925-47c4-bf73-0463e1a9e4e0",
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -530,7 +558,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances",
             "id": "f44014da-9c52-42ca-af82-d625549379aa",
-            "depth": 400,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -556,7 +584,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "TerrainDecorum",
             "id": "9c8319e3-3cb2-413e-8185-91c6bce0e7b3",
-            "depth": 500,
+            "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -582,7 +610,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "TerrainWalls",
             "id": "042e4cda-7ba2-4e21-8fd3-fc87acd5c58e",
-            "depth": 600,
+            "depth": 700,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -619,7 +647,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "TerrainEdges",
             "id": "72f86dc7-a23d-445d-8258-bbb6d7813d64",
-            "depth": 700,
+            "depth": 800,
             "grid_x": 64,
             "grid_y": 64,
             "hierarchyFrozen": false,
@@ -732,7 +760,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "TerrainTiles",
             "id": "9922dbb9-2c88-41e2-b736-fa3a0a8c5092",
-            "depth": 800,
+            "depth": 900,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -1017,7 +1045,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 900,
+            "depth": 1000,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

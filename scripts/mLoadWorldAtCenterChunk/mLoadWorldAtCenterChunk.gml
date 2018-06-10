@@ -89,6 +89,12 @@ with (oWorldHandler)
 						mDrawOverheadToSurface();
 			}
 			
+			with (_chunk.overheadParallaxCanvas)		
+			{
+						draw = true;
+						mDrawOverheadParallaxToSurface();
+			}
+			
 		}
 	}
 	

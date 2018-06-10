@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "39d65dbe-d1bc-4437-8c6a-889ba05ae8c6",
+            "Value": {
+                "id": "1869e324-db45-4a6e-8d44-dd2cd8d433fc",
+                "resourcePath": "scripts\\mChunkLoaderPopulateOverheadParallax\\mChunkLoaderPopulateOverheadParallax.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3a3a6785-1e71-427f-a99f-960fe5a88d36",
             "Value": {
                 "id": "5937897c-a98c-41de-94b8-cc1d461524e3",
@@ -1847,6 +1855,14 @@
             }
         },
         {
+            "Key": "87e914d4-f81d-4f85-86e6-ce4f008052eb",
+            "Value": {
+                "id": "f96d088d-b075-4537-a834-cbf3a9857a22",
+                "resourcePath": "views\\87e914d4-f81d-4f85-86e6-ce4f008052eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8903406d-1501-466a-8d7f-1a303d47d8b8",
             "Value": {
                 "id": "01f50706-d59c-41dc-a9b0-ba04bb691c04",
@@ -2511,6 +2527,14 @@
             }
         },
         {
+            "Key": "b552452f-5a00-4232-99e7-9cc8f76f217a",
+            "Value": {
+                "id": "a7994201-8b35-4c49-ac5a-e5ac11ee793e",
+                "resourcePath": "objects\\oParallaxTest\\oParallaxTest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b552f73c-ac59-4349-a6b3-139630c183d9",
             "Value": {
                 "id": "6127d097-72bd-4a4b-9d59-8699470d4ae4",
@@ -2708,6 +2732,14 @@
                 "id": "af37b375-1584-4a42-95b6-74d0dbf4192b",
                 "resourcePath": "scripts\\mChangeListFindOrCreate\\mChangeListFindOrCreate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c00afbc7-a443-4861-940d-c9ab6b4fe93f",
+            "Value": {
+                "id": "04103b2a-cae1-45a4-b80e-eb57b60fb696",
+                "resourcePath": "objects\\oOverheadParallaxCanvas\\oOverheadParallaxCanvas.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3263,6 +3295,14 @@
             }
         },
         {
+            "Key": "e92fcaa8-48c4-4032-b415-bb03932af552",
+            "Value": {
+                "id": "55acaf70-7094-4798-b759-03f632477462",
+                "resourcePath": "scripts\\mDrawOverheadParallaxToSurface\\mDrawOverheadParallaxToSurface.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e9bffa7d-e829-458d-ba5e-68eba68297b2",
             "Value": {
                 "id": "77cc2aa9-419a-49c2-94c1-125c769f3ad3",
@@ -3428,6 +3468,14 @@
                 "id": "4e17dc2d-6959-456d-958f-09d4a49d1cbf",
                 "resourcePath": "datafiles_yy\\Bill2.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f4b0f868-f7e8-44bc-9205-8f4f2efc3de3",
+            "Value": {
+                "id": "37a9a66c-77fe-4e13-a966-adfc26056b52",
+                "resourcePath": "objects\\oChunkCreatorOverheadParallaxItem\\oChunkCreatorOverheadParallaxItem.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3671,11 +3719,13 @@
         "0a030a93-f829-4293-86c7-55903178b29c",
         "0092c1f9-e578-4fc0-a089-3ac295b98bc4",
         "3641ef05-8aff-4d39-a0c5-3e82f5a38b6e",
+        "39d65dbe-d1bc-4437-8c6a-889ba05ae8c6",
         "c977c1a2-dba1-41f2-9625-db6d014bc13f",
         "4ffbd4b6-393f-40fe-9de3-1a60c9c10a98",
         "5aa3e290-0e61-4093-8a54-9ac373b5c190",
         "05ac33c2-0ae4-45a4-a814-ef7af54e405f",
         "5e26d548-6c9d-4c5f-9260-9e143fe038d9",
+        "e92fcaa8-48c4-4032-b415-bb03932af552",
         "212d8c79-f20c-419b-8b81-b5dd8f007a51",
         "4a9ba64e-8025-4c3e-bf39-6715d6fa4733",
         "e8f27327-c2d5-437a-947c-1afffd747cd2",

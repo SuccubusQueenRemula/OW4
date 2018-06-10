@@ -81,6 +81,7 @@ if (_yMove != 0)
 				{
 					y -= _yTotalMove;
 				}
+				
 			}
 			global.worldChunkOffsetY -= _yTotalMove;
 		}

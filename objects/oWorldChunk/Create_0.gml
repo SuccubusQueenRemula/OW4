@@ -14,6 +14,9 @@ terrainSurface = noone;
 overheadCanvas = instance_create_depth(x, y, Depths.AbovePlayer, oOverheadCanvas);
 overheadCanvas.owner = id;
 
+overheadParallaxCanvas = instance_create_depth(x, y, Depths.OverheadParallax, oOverheadParallaxCanvas);
+overheadParallaxCanvas.owner = id;
+
 
 
 

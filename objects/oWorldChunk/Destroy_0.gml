@@ -35,3 +35,4 @@ if (surface_exists(terrainSurface))
 
 
 instance_destroy(overheadCanvas);
+instance_destroy(overheadParallaxCanvas);

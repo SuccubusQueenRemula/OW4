@@ -23,6 +23,14 @@ mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorOverheadWalls, CHUNK_FILE_KE
 mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorOverheadRoof, CHUNK_FILE_KEYS_OVERHEAD_ROOFS);
 mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorOverheadDecorum, CHUNK_FILE_KEYS_OVERHEAD_DECORUM);
 
+with (oChunkCreatorOverheadParallaxItem)
+{
+	x += 512;
+	y += 512;
+}
+
+mChunkSaverProcessObjectsAsSpriteLayer(oChunkCreatorOverheadParallaxItem, CHUNK_FILE_KEYS_OVERHEAD_PARALLAX);
+
 //Process all instances into JSON.
 mChunkSaverProcessInstances();
 

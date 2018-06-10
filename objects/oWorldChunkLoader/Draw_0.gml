@@ -15,6 +15,12 @@ if (applySurface)
 		draw = true;
 		mDrawOverheadToSurface();
 	}
+	
+	with (loadingWorldChunk.overheadParallaxCanvas)
+	{
+		draw = true;
+		mDrawOverheadParallaxToSurface();
+	}
 
 	
 	applySurface = false;
