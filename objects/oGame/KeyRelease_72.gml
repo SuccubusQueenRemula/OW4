@@ -1,6 +1,11 @@
-global.debugMode = !global.debugMode;
-
-with (oSolid)
+if (!isRelease && gameState != gameStates.consoleOpen)
 {
-	visible = global.debugMode;
+
+	global.debugMode = !global.debugMode;
+
+	with (oSolid)
+	{
+		visible = global.debugMode;
+	}
+
 }

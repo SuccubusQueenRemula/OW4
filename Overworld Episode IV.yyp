@@ -2471,6 +2471,14 @@
             }
         },
         {
+            "Key": "a730344f-5bf3-4dc8-b0d5-4581070930b7",
+            "Value": {
+                "id": "264ea45b-b475-4976-9476-112e5513c0c2",
+                "resourcePath": "scripts\\mConsoleCommandParse\\mConsoleCommandParse.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a743c1d3-b73c-4a1f-a676-4568859d97ad",
             "Value": {
                 "id": "78ef03cd-34e9-41ba-a1d2-d063641b2977",
@@ -2588,6 +2596,14 @@
                 "id": "920cd07d-0f8c-41f8-a1bc-8804ed6172eb",
                 "resourcePath": "views\\aeb0b9ba-6e18-42f6-8703-050255578451.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "afceaea0-36cf-4389-becf-64e0f681b7ef",
+            "Value": {
+                "id": "18820587-62f7-4f49-871b-848d9d207736",
+                "resourcePath": "objects\\oCommandConsole\\oCommandConsole.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2788,6 +2804,14 @@
                 "id": "ac5863fa-9920-4a21-8955-744cab0e66a2",
                 "resourcePath": "sprites\\sTestDirt\\sTestDirt.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bb4f4041-7a63-4e91-a38f-52f8ac4ac922",
+            "Value": {
+                "id": "57fe73d7-d286-43ff-a4ff-b781d092d0ce",
+                "resourcePath": "objects\\oErrorMessageDisplay\\oErrorMessageDisplay.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3108,6 +3132,14 @@
                 "id": "75652c36-ca2d-48d3-aee8-bcc77c5c3de4",
                 "resourcePath": "scripts\\mInitiateConversation\\mInitiateConversation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d0edeeef-5e10-4917-8908-7a2280416781",
+            "Value": {
+                "id": "c6fd90b0-7ac4-4a32-95bf-cb3d99f8bd47",
+                "resourcePath": "objects\\oVirtualKeyboard\\oVirtualKeyboard.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3962,7 +3994,8 @@
         "5b97a056-c14c-443d-992e-3aa91065bb8c",
         "77f869e1-cf9d-4762-93a4-bdc1451e602c",
         "3a3a6785-1e71-427f-a99f-960fe5a88d36",
-        "084e70f0-e121-49e7-8da3-79db27de4824"
+        "084e70f0-e121-49e7-8da3-79db27de4824",
+        "a730344f-5bf3-4dc8-b0d5-4581070930b7"
     ],
     "tutorial": ""
 }
