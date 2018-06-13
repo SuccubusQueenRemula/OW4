@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "024c08fa-b2ac-46ae-8b14-3987b2670d32",
+            "Value": {
+                "id": "143ae39d-d5cc-4e37-8381-2ab71f306cbd",
+                "resourcePath": "views\\024c08fa-b2ac-46ae-8b14-3987b2670d32.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "02604207-03c8-4514-9c0f-7e9cba67871e",
             "Value": {
                 "id": "bbba51d3-61a5-41d9-898e-f6519e3ed857",
@@ -202,7 +210,7 @@
             "Key": "07caf3c0-83ef-4f95-b971-e30fc81c5991",
             "Value": {
                 "id": "deeb9a3f-15d2-42f2-a41f-c7979232ff68",
-                "resourcePath": "sprites\\sHeroIdleRight\\sHeroIdleRight.yy",
+                "resourcePath": "sprites\\sHeroIdleLeft\\sHeroIdleLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -394,7 +402,7 @@
             "Key": "11d97d9b-850e-4f0b-a116-17a7c5f92965",
             "Value": {
                 "id": "33c36ce4-7030-4202-ab54-7ceeb040e0ac",
-                "resourcePath": "sprites\\sHeroIdleLeft\\sHeroIdleLeft.yy",
+                "resourcePath": "sprites\\sHeroIdleRight\\sHeroIdleRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -671,6 +679,22 @@
             }
         },
         {
+            "Key": "2a684fef-e911-47e6-85a3-fde3cfd39c33",
+            "Value": {
+                "id": "c79086f5-ea30-4c2f-bfb3-191d48406da1",
+                "resourcePath": "objects\\oFeracianGrassRight\\oFeracianGrassRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a712caa-202a-43a9-b0c8-2b1945eb2fd1",
+            "Value": {
+                "id": "a801f069-5c84-4fa6-9ada-753c8c084832",
+                "resourcePath": "objects\\oFeracianBottom\\oFeracianBottom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b039b20-e554-49a7-8301-626d5a1bb590",
             "Value": {
                 "id": "c13fccf6-3147-49f0-8bd3-d082a6cf4778",
@@ -831,6 +855,14 @@
             }
         },
         {
+            "Key": "3881c46d-69f2-430a-9726-a6d578186f37",
+            "Value": {
+                "id": "0d09bcdd-a9db-4396-b263-2f12cc85ffd5",
+                "resourcePath": "objects\\oFeracianGrassBottomLeft\\oFeracianGrassBottomLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "38994b90-c90d-463e-b45f-86b96b799cba",
             "Value": {
                 "id": "b96b87ab-4a42-4a2a-a91a-264145005744",
@@ -887,6 +919,14 @@
             }
         },
         {
+            "Key": "3ebe5341-c6ee-4df8-b8aa-1bbc564d9efe",
+            "Value": {
+                "id": "fc3d416c-425f-4594-83bc-0afa59a63e88",
+                "resourcePath": "objects\\oFeracianGrassTopRight\\oFeracianGrassTopRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ec984a0-18d5-4a84-96b7-049c1a80934a",
             "Value": {
                 "id": "ee98ac41-3ecf-4bc7-9a52-3873dfeec643",
@@ -900,6 +940,14 @@
                 "id": "5f564d66-1d7d-4563-b00a-4d01b78d7a20",
                 "resourcePath": "sprites\\sHeroRunDown\\sHeroRunDown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f31f16e-c935-47e3-b089-6291209c9121",
+            "Value": {
+                "id": "f1f44052-d6fd-4fe2-b8f4-8601f0a9921e",
+                "resourcePath": "views\\3f31f16e-c935-47e3-b089-6291209c9121.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -951,6 +999,14 @@
             }
         },
         {
+            "Key": "421cc7c7-67cf-4773-beb5-ecff8af8bcee",
+            "Value": {
+                "id": "05c0ba95-63e0-4211-9a82-ea3eb26ecaf1",
+                "resourcePath": "objects\\oFeracianGrassTopLeft\\oFeracianGrassTopLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "427d9e10-8dc1-4182-9918-4786a8e7cc6a",
             "Value": {
                 "id": "2a655c1c-3df0-4d93-aeba-6324fb59b33a",
@@ -996,6 +1052,14 @@
                 "id": "2495232c-22e6-43d9-ac72-2ecf2d5ea342",
                 "resourcePath": "scripts\\mLoadChangeListData\\mLoadChangeListData.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4693c47b-b4a8-4667-8136-2084016c932a",
+            "Value": {
+                "id": "11212e25-0b7a-4187-90a8-b8f3371ee141",
+                "resourcePath": "sprites\\sFeraciaGrassLeft\\sFeraciaGrassLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1260,6 +1324,14 @@
                 "id": "ee83c89b-9426-43db-b09b-e9710d04d9c9",
                 "resourcePath": "views\\586fc8c6-5a29-4f1c-8599-b6e4c3777fce.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5a3171c2-06e9-4c75-8233-4e8511322574",
+            "Value": {
+                "id": "8b579821-f608-4f65-b15e-63fc56ba59f9",
+                "resourcePath": "rooms\\cX997Y997_TestTown\\cX997Y997_TestTown.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1575,6 +1647,14 @@
             }
         },
         {
+            "Key": "6f9cfcef-ffce-4c60-ac14-92bb79a1e066",
+            "Value": {
+                "id": "a6138c18-b0c9-4028-a82e-9da866a4c055",
+                "resourcePath": "sprites\\sFeraciaGrassCornerTopRight\\sFeraciaGrassCornerTopRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6fb74c14-ecea-488e-a1c2-1499d363b42d",
             "Value": {
                 "id": "b95f330f-3fc6-4ae3-91c8-85f8e0ee41b2",
@@ -1644,6 +1724,14 @@
                 "id": "ac5ad2a2-3ec0-4e6c-8566-d84f3e55060a",
                 "resourcePath": "rooms\\cX1001Y999_SEofFarm11\\cX1001Y999_SEofFarm11.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "751a7e6d-d435-4093-b492-5243d18abedc",
+            "Value": {
+                "id": "cad0c280-2a8b-420a-b803-b0621057b2d9",
+                "resourcePath": "objects\\oFeracianGrassBottomRight\\oFeracianGrassBottomRight.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1799,6 +1887,22 @@
             }
         },
         {
+            "Key": "83e8700b-e14b-46ea-983a-8c51583b4bbc",
+            "Value": {
+                "id": "fe90eb66-64d4-491c-af0f-7e5a1afcc17b",
+                "resourcePath": "views\\83e8700b-e14b-46ea-983a-8c51583b4bbc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "83ffad18-4734-43cf-a740-381ffa24cc77",
+            "Value": {
+                "id": "42e5e21c-b741-42a6-8b2d-a78285523aa7",
+                "resourcePath": "objects\\oFeracianGrassTop\\oFeracianGrassTop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "84699b84-38fd-4eb5-8230-a85acb833faf",
             "Value": {
                 "id": "aeee4e60-d550-413a-a2dc-df7fae3e3a2d",
@@ -1812,6 +1916,14 @@
                 "id": "b42e761c-4a2f-4c06-abba-7d817b780e9f",
                 "resourcePath": "sprites\\sTest\\sTest.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "85ec49c7-51b1-4cb4-bcf4-fbcdeef9daf5",
+            "Value": {
+                "id": "4239894f-3417-4da7-9fa1-807a75edb0e4",
+                "resourcePath": "views\\85ec49c7-51b1-4cb4-bcf4-fbcdeef9daf5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1831,11 +1943,35 @@
             }
         },
         {
+            "Key": "865d9d43-fcf4-4bf0-ae33-64355ae200c8",
+            "Value": {
+                "id": "8fead399-1b67-4991-8489-d5f7184a5ded",
+                "resourcePath": "objects\\oFeracianGrass\\oFeracianGrass.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "86672e9b-1fe8-48b8-be8d-acecac9a3ad2",
+            "Value": {
+                "id": "d33cd1d5-0a84-46a3-8b5c-09dd29dd5546",
+                "resourcePath": "sprites\\sFeraciaGrassCornerBottomRight\\sFeraciaGrassCornerBottomRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86d84168-09fe-41b5-b1a0-0ea81388e0ed",
             "Value": {
                 "id": "6b1fb578-fbf5-49c3-9540-49c08dd8183a",
                 "resourcePath": "scripts\\mAddKeyWordBucketToGrid\\mAddKeyWordBucketToGrid.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "86e529e9-65b2-4047-ba7c-6058c7165ab7",
+            "Value": {
+                "id": "72971c2c-d6c2-4c65-b3dd-e5c71fcb719d",
+                "resourcePath": "sprites\\sFeraciaGrassCornerTopLeft\\sFeraciaGrassCornerTopLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2151,6 +2287,14 @@
             }
         },
         {
+            "Key": "998e285b-0589-4683-9c15-a5f61c59ca4c",
+            "Value": {
+                "id": "feb435af-c382-4f24-b938-4a65686c002f",
+                "resourcePath": "sprites\\sFeraciaGrass\\sFeraciaGrass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99a413f1-ef0c-4633-8b05-a9442a5a3fef",
             "Value": {
                 "id": "f02b54e1-79d3-4069-9e47-2cbf391201b0",
@@ -2463,6 +2607,14 @@
             }
         },
         {
+            "Key": "b24644fc-0fdc-4077-9ed2-5d8cbe201010",
+            "Value": {
+                "id": "80ec86a6-b214-48ab-916f-3adfa3da8b37",
+                "resourcePath": "sprites\\sFeraciaGrassCornerBottomLeft\\sFeraciaGrassCornerBottomLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b29a315a-caed-4818-b42e-85bb59ef7698",
             "Value": {
                 "id": "b9776c12-1815-4d14-b309-94c2a4ecccd9",
@@ -2612,6 +2764,14 @@
                 "id": "d6b9f60a-1ffd-4720-9f31-9317beed7d3f",
                 "resourcePath": "views\\b8b4db67-e3e9-47c6-b0b2-3f0ab22059e3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b97907b9-96a5-4148-826e-6d3c600a39a3",
+            "Value": {
+                "id": "98884e13-76ce-4014-a0fc-d47bae6f2a0c",
+                "resourcePath": "sprites\\sFeraciaGrassRight\\sFeraciaGrassRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2804,6 +2964,14 @@
                 "id": "a3e00ed5-a08b-4d1a-8e4e-956bfa1a7161",
                 "resourcePath": "objects\\oConversationHandler\\oConversationHandler.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c68b8761-c899-4e97-b081-0113e85f1516",
+            "Value": {
+                "id": "f3d267c5-480f-44b8-be30-7135d3fe7d09",
+                "resourcePath": "views\\c68b8761-c899-4e97-b081-0113e85f1516.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3215,6 +3383,14 @@
             }
         },
         {
+            "Key": "e24a6789-b8df-47e5-a06e-e231dd7194f4",
+            "Value": {
+                "id": "38c94f34-f275-4079-9372-6f3a4ed2cd2c",
+                "resourcePath": "views\\e24a6789-b8df-47e5-a06e-e231dd7194f4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e2898e49-c603-4959-b801-aa30741784ea",
             "Value": {
                 "id": "44b61ce5-0182-4a54-a3bc-e25218c49b5a",
@@ -3260,6 +3436,14 @@
                 "id": "7e2406d2-9555-4093-bdaa-241e2ac32c84",
                 "resourcePath": "objects\\oWorldHandler\\oWorldHandler.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7810fab-0727-4246-87d9-5cf551d1deff",
+            "Value": {
+                "id": "5958ab7c-5008-44a7-b0f2-57dfde8b2643",
+                "resourcePath": "sprites\\sFeraciaGrassBottom\\sFeraciaGrassBottom.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3319,10 +3503,26 @@
             }
         },
         {
+            "Key": "eb6e269f-e223-4b9b-965f-9c30b493621f",
+            "Value": {
+                "id": "70523b96-9526-4e7f-b7f4-df9d63c14621",
+                "resourcePath": "views\\eb6e269f-e223-4b9b-965f-9c30b493621f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "eb9cbc1c-6557-401f-aa51-eb5cb420702f",
             "Value": {
                 "id": "e196fbd4-17ae-4e45-a09b-70f0289ec0e3",
                 "resourcePath": "sprites\\sTileEdgeGrassBottomRight\\sTileEdgeGrassBottomRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ebf10878-c412-4a2a-93d2-64408c1ab7fc",
+            "Value": {
+                "id": "e5171cef-1fb6-4775-96ca-352fe02a3d84",
+                "resourcePath": "sprites\\sFeraciaGrassTop\\sFeraciaGrassTop.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3364,6 +3564,14 @@
                 "id": "8ad16d79-fa56-4ee4-9176-ba2a38b82301",
                 "resourcePath": "sprites\\sprite74\\sprite74.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ee40c4ad-7cb4-44f6-bf87-757f4b65403e",
+            "Value": {
+                "id": "d4594708-6089-4939-81e2-8b5b61d1bfad",
+                "resourcePath": "views\\ee40c4ad-7cb4-44f6-bf87-757f4b65403e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3420,6 +3628,14 @@
                 "id": "9aecd3f5-5165-41ad-a27e-a85e9215fb12",
                 "resourcePath": "views\\f2019d7a-22c0-4a48-806b-7b677d864cd4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f21be061-279f-438b-8e77-df2040c06b78",
+            "Value": {
+                "id": "54ea5ecb-b082-4381-8390-8b180baa4ec3",
+                "resourcePath": "objects\\oFeracianGrassLeft\\oFeracianGrassLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {

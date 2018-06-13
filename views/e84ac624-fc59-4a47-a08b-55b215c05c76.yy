@@ -7,7 +7,8 @@
         "3d2d114a-7e09-4ffd-a04b-f366908319f9",
         "e175b681-539f-400a-af47-f65b18ec17dc",
         "08b30c23-5335-42b7-8edd-4d31282fdf8f",
-        "36b7d058-d1d5-492c-a447-52ab2515a0bc"
+        "36b7d058-d1d5-492c-a447-52ab2515a0bc",
+        "865d9d43-fcf4-4bf0-ae33-64355ae200c8"
     ],
     "filterType": "GMObject",
     "folderName": "Tiles",
