@@ -1,3 +1,8 @@
 /// @description SONG THAT ENDS WORLD
 
-mObliterateWorld();
+if (!isRelease && gameState != gameStates.consoleOpen)
+{
+
+	mObliterateWorld();
+
+}

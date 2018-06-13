@@ -3,17 +3,21 @@ event_inherited();
 mDefineGlobals();
 //mFullscreen();
 
+depth = -16000;
+
 enum gameStates
 {
 	normal,
 	conversation,
 	pooping,
-	eatingPoop
+	eatingPoop,
+	consoleOpen
 }
 
 gameState = gameStates.normal;
-gamePaused = false;
+global.gamePaused = false;
 pausedSprite = noone;
+isRelease = false;
 
 var _viewW = camera_get_view_width(view_camera[0]);
 var _viewH = camera_get_view_height(view_camera[0]);
@@ -28,5 +32,6 @@ mCreateSingleton(oMasterDraw);
 mCreateSingleton(oChangeListHandler);
 mCreateSingleton(oTimer);
 mCreateSingleton(oCamera);
+mCreateSingleton(oErrorMessageDisplay);
 mDeleteDuplicateSingletons();
 

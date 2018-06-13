@@ -1,25 +1,28 @@
 //All code per step is based on player state. As this is a switch statement with breaks,
 //Only one state's code can be executed per frame.
-switch (playerState)
+if (!global.gamePaused)
 {
-	case playerStates.idle:
-		mPlayerIdle();
-		break;
+	switch (playerState)
+	{
+		case playerStates.idle:
+			mPlayerIdle();
+			break;
 		
 		
-	case playerStates.move:
-		mPlayerMove();
-		break;
+		case playerStates.move:
+			mPlayerMove();
+			break;
 		
-	case playerStates.converse:
-		break;
+		case playerStates.converse:
+			break;
 		
-	case playerStates.attack:
-		mPlayerAttack();
-		break;
+		case playerStates.attack:
+			mPlayerAttack();
+			break;
 		
-	default:
-		break;
+		default:
+			break;
+	}
 }
 
 sprite_index = playerSpriteTable[playerState, faceDirection];
