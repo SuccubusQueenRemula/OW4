@@ -61,7 +61,7 @@ for (var _wy = 0; _wy < _worldHeight; _wy++)
 	}
 }
 
-
+draw_rectangle(0, 0, 200, 200, false);
 
 
 

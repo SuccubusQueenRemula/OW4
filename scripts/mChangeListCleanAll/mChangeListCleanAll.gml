@@ -113,6 +113,9 @@ with (oChangeList)
 								}
 							}
 						}
+						
+						//We've done work for a matching entry. We can break this iteration of the inner loop.
+						_j = _h + 1;
 					}
 					#endregion addInvItemCHIDAndFile
 					break;

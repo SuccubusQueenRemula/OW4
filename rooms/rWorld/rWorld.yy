@@ -2,7 +2,7 @@
 {
     "name": "rWorld",
     "id": "a8d81f17-da3c-418f-a45e-03ae6570c3e5",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
