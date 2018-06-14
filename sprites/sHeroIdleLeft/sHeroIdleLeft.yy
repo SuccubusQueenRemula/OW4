@@ -1,5 +1,5 @@
 {
-    "id": "11d97d9b-850e-4f0b-a116-17a7c5f92965",
+    "id": "07caf3c0-83ef-4f95-b971-e30fc81c5991",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "sHeroIdleLeft",
@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 60,
     "bbox_left": 8,
-    "bbox_right": 32,
+    "bbox_right": 33,
     "bbox_top": 2,
     "bboxmode": 0,
     "colkind": 1,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "c91b8cf8-fa1f-499d-abb8-0b1fe40c954c",
+            "id": "838ed5e7-4b0a-4611-819d-9f2fa1b898d3",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "11d97d9b-850e-4f0b-a116-17a7c5f92965",
+            "SpriteId": "07caf3c0-83ef-4f95-b971-e30fc81c5991",
             "compositeImage": {
-                "id": "084c77a7-f22c-4c00-98b6-026287d33931",
+                "id": "04df3aac-fcd8-4cb0-b671-aafe0db73364",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "c91b8cf8-fa1f-499d-abb8-0b1fe40c954c",
+                "FrameId": "838ed5e7-4b0a-4611-819d-9f2fa1b898d3",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "bb5c4c1f-456d-40d0-b51a-6a13e5b3a207",
+                    "id": "3722adbf-f75c-4524-bc00-a55ced4ddc26",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "c91b8cf8-fa1f-499d-abb8-0b1fe40c954c",
-                    "LayerId": "dc719414-7800-4174-92a3-bd54e69a0a8e"
+                    "FrameId": "838ed5e7-4b0a-4611-819d-9f2fa1b898d3",
+                    "LayerId": "0ee775af-2157-4af7-8690-3833b80fd02e"
                 }
             ]
         }
@@ -43,10 +43,10 @@
     "height": 63,
     "layers": [
         {
-            "id": "dc719414-7800-4174-92a3-bd54e69a0a8e",
+            "id": "0ee775af-2157-4af7-8690-3833b80fd02e",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "11d97d9b-850e-4f0b-a116-17a7c5f92965",
+            "SpriteId": "07caf3c0-83ef-4f95-b971-e30fc81c5991",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -56,7 +56,7 @@
     ],
     "origin": 4,
     "originLocked": false,
-    "playbackSpeed": 15,
+    "playbackSpeed": 3,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
