@@ -38,8 +38,28 @@ for (_i = 0; _i < _h; _i++)
 		case changeListCommands.addInvItemCHIDAndFile:
 			var _item = instance_create_layer(0, 0, "Instances", oInventoryItem);
 			_item.CHID = _target;
-			mLoadItemFromFile(_item, _arg)
-			ds_map_set(_loadingWorldChunk.instanceMap, _target, _item);
+			var _cont = true;
+			
+			//We must make sure this instance's CHID doesn't already exist. This can happen because the player unloaded
+			//the chunk but didn't walk far enough away to unload the item. Now they've come back and there's a change
+			//entry to add an item with this CHID when it still exists from before.
+			with (_item.object_index)
+			{
+				//So if _item's CHID is the same as this thing's CHID but they are two different instances, one of them needs to go.
+				if (CHID == _item.CHID && id != _item.id)
+				{
+					_cont = false;	
+					instance_destroy(_item);
+					break;
+				}
+				
+			}
+			
+			if (_cont)
+			{
+				mLoadItemFromFile(_item, _arg);
+				ds_map_set(_loadingWorldChunk.instanceMap, _target, _item);
+			}
 			break;
 			
 		case changeListCommands.addInvItemCHIDAndFileUpdateX:
