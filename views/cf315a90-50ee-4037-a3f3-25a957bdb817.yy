@@ -13,15 +13,7 @@
         "70a9e0e4-8207-465a-b3a7-e3ea17c658f2",
         "37ea1794-00c5-4d9c-ab3b-3e54491a08c1",
         "bcc82f60-1544-4b77-9a3b-173e2cdae584",
-        "adcbd2a7-0386-4d2d-9cc7-83b70c73ffb1",
-        "2a684fef-e911-47e6-85a3-fde3cfd39c33",
-        "83ffad18-4734-43cf-a740-381ffa24cc77",
-        "2a712caa-202a-43a9-b0c8-2b1945eb2fd1",
-        "f21be061-279f-438b-8e77-df2040c06b78",
-        "3ebe5341-c6ee-4df8-b8aa-1bbc564d9efe",
-        "421cc7c7-67cf-4773-beb5-ecff8af8bcee",
-        "3881c46d-69f2-430a-9726-a6d578186f37",
-        "751a7e6d-d435-4093-b492-5243d18abedc"
+        "adcbd2a7-0386-4d2d-9cc7-83b70c73ffb1"
     ],
     "filterType": "GMObject",
     "folderName": "Edges",
