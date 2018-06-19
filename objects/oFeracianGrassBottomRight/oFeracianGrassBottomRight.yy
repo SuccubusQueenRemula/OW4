@@ -6,7 +6,7 @@
     "eventList": [
         
     ],
-    "maskSpriteId": "86672e9b-1fe8-48b8-be8d-acecac9a3ad2",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "a3c2e78e-d6b0-418a-9ce7-97763a977c35",
     "persistent": false,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "86672e9b-1fe8-48b8-be8d-acecac9a3ad2",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

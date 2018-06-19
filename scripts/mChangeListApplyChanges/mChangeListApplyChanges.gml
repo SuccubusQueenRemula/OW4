@@ -51,6 +51,7 @@ for (_i = 0; _i < _h; _i++)
 					_cont = false;	
 					instance_destroy(_item);
 					break;
+					//sprite_create_from_surface()
 				}
 				
 			}
