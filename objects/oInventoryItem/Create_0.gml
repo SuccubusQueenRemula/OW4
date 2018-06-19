@@ -11,7 +11,8 @@ isMouseAttached = false;
 //How much space does this take up in inventory?
 invWidth = 1;
 invHeight = 1;
-mouseOverText = ds_list_create();
+mDsCreateList(id, "mouseOverText");
+//mouseOverText = ds_list_create();
 
 
 

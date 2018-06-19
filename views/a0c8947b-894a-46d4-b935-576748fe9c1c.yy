@@ -8,7 +8,8 @@
         "5b97a056-c14c-443d-992e-3aa91065bb8c",
         "77f869e1-cf9d-4762-93a4-bdc1451e602c",
         "3a3a6785-1e71-427f-a99f-960fe5a88d36",
-        "084e70f0-e121-49e7-8da3-79db27de4824"
+        "084e70f0-e121-49e7-8da3-79db27de4824",
+        "0f1984ef-29a7-4629-bae1-a34a22525647"
     ],
     "filterType": "GMScript",
     "folderName": "Enums and Macros",

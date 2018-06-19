@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "0f1984ef-29a7-4629-bae1-a34a22525647",
+            "Value": {
+                "id": "d216137a-0cb9-4caf-bd26-034ac5e4afd5",
+                "resourcePath": "scripts\\mEnumMasterDsGrid\\mEnumMasterDsGrid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0f2c3e29-f606-4042-8e6f-bc4170c4c9c3",
             "Value": {
                 "id": "0d3b83ec-dc96-4cf3-991c-024fc77f60ee",
@@ -412,6 +420,14 @@
                 "id": "4653209f-429f-4f04-b9f2-43a33fbb5db4",
                 "resourcePath": "sprites\\sOverheadParallaxTEST\\sOverheadParallaxTEST.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "131a6ba2-c52a-49d7-80f3-941b5b4fbbbc",
+            "Value": {
+                "id": "9dfcbd9c-393a-48d5-903c-902b4cd7c30e",
+                "resourcePath": "views\\131a6ba2-c52a-49d7-80f3-941b5b4fbbbc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1591,6 +1607,14 @@
             }
         },
         {
+            "Key": "6ccce4be-0a96-49a1-8bab-03648d6653f8",
+            "Value": {
+                "id": "7db9e2ed-e9b3-4588-a6db-b80065c635fe",
+                "resourcePath": "scripts\\mDsCreateGrid\\mDsCreateGrid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6e1940fd-d8b6-4057-acad-51a28ce093f5",
             "Value": {
                 "id": "502736d9-c373-40f9-94fe-04c4f1ca3cfd",
@@ -1627,14 +1651,6 @@
             "Value": {
                 "id": "5ccea4cb-b204-47ed-99b5-f55e3909dbc0",
                 "resourcePath": "views\\711e6343-ccd3-4e9b-b52e-bafd269075d3.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "726a0b2a-2038-4e22-94f5-cafdd9466765",
-            "Value": {
-                "id": "a337890f-504a-4584-a81e-746d3f91f67b",
-                "resourcePath": "views\\32e8c295-e7b5-40f3-80dd-db3c3aafedbf-room.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2311,6 +2327,14 @@
             }
         },
         {
+            "Key": "a2873b04-34c5-4dbb-9879-468cfdc7c583",
+            "Value": {
+                "id": "cabc7d89-0594-49ed-a775-8b253610e631",
+                "resourcePath": "scripts\\mDsOwnerConceive\\mDsOwnerConceive.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a35dda1d-290a-4dd3-b30f-8040827d3ce5",
             "Value": {
                 "id": "99bca8e6-e555-4abb-9180-a8157b5a153c",
@@ -2516,6 +2540,14 @@
                 "id": "39f20ee9-adae-49fe-97df-baad932460f4",
                 "resourcePath": "sprites\\sTileEdgeGrassBottom\\sTileEdgeGrassBottom.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b1e9c442-9095-4377-9150-9bde0249ae12",
+            "Value": {
+                "id": "54949600-13cf-4c0e-8a37-ea8f342b37d8",
+                "resourcePath": "scripts\\mDsCreateList\\mDsCreateList.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3215,6 +3247,14 @@
             }
         },
         {
+            "Key": "dd9fe582-d516-4f70-b194-1cc330bae424",
+            "Value": {
+                "id": "f97d2d73-e43c-4651-9190-213c4bbb858d",
+                "resourcePath": "scripts\\mIsDsOwner\\mIsDsOwner.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ddb8a17f-7fed-40c4-9a74-059a11f4b26e",
             "Value": {
                 "id": "aa590f2a-8856-43c3-b768-e1564d29e0b8",
@@ -3284,6 +3324,14 @@
                 "id": "34ee88f6-aba3-427e-a833-1203684e7a7d",
                 "resourcePath": "sprites\\sHurtBox\\sHurtBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e1f40797-454e-4b7b-b87e-49bf794e7738",
+            "Value": {
+                "id": "87dda1d3-3ab7-4626-8115-dda11926d4e1",
+                "resourcePath": "scripts\\mDsOwnerClearDs\\mDsOwnerClearDs.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3695,6 +3743,14 @@
             }
         },
         {
+            "Key": "fe8c1c86-9e92-4056-91b4-1c6946d6b229",
+            "Value": {
+                "id": "7e133433-213d-4254-b7ca-3b4686dd58a7",
+                "resourcePath": "objects\\oMasterObject\\oMasterObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fee5932b-bc0e-4ecb-a298-29c534ad6122",
             "Value": {
                 "id": "44879fc5-c2fe-4efa-bc86-11ec32149508",
@@ -3827,7 +3883,13 @@
         "77f869e1-cf9d-4762-93a4-bdc1451e602c",
         "3a3a6785-1e71-427f-a99f-960fe5a88d36",
         "084e70f0-e121-49e7-8da3-79db27de4824",
-        "a730344f-5bf3-4dc8-b0d5-4581070930b7"
+        "0f1984ef-29a7-4629-bae1-a34a22525647",
+        "a730344f-5bf3-4dc8-b0d5-4581070930b7",
+        "a2873b04-34c5-4dbb-9879-468cfdc7c583",
+        "b1e9c442-9095-4377-9150-9bde0249ae12",
+        "6ccce4be-0a96-49a1-8bab-03648d6653f8",
+        "dd9fe582-d516-4f70-b194-1cc330bae424",
+        "e1f40797-454e-4b7b-b87e-49bf794e7738"
     ],
     "tutorial": ""
 }
