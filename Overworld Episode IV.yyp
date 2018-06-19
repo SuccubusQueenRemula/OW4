@@ -759,14 +759,6 @@
             }
         },
         {
-            "Key": "32e8c295-e7b5-40f3-80dd-db3c3aafedbf",
-            "Value": {
-                "id": "2bf16d05-c10d-4381-a87f-1a84db4bd322",
-                "resourcePath": "rooms\\rFarmExterior\\rFarmExterior.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "33d3d150-e3c6-459d-baa8-b8f0bf898deb",
             "Value": {
                 "id": "8fedd62e-d833-440b-8bec-77d876619ae6",
@@ -1076,14 +1068,6 @@
                 "id": "823bbeee-6300-4cae-8862-c99a5a1595b5",
                 "resourcePath": "views\\49f5d22f-ca0f-4e72-811a-1ac9a287b3d4.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4a315c10-afec-4149-8b55-383569a2a84e",
-            "Value": {
-                "id": "67514bda-3712-4062-b487-3c03e536c2eb",
-                "resourcePath": "rooms\\rEastOfFarm\\rEastOfFarm.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1716,14 +1700,6 @@
                 "id": "feb5bba9-ac55-4261-b3dc-c5d2f4a521fe",
                 "resourcePath": "scripts\\mLoadWorldAtCenterChunk\\mLoadWorldAtCenterChunk.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "77f24145-a3cf-4997-9874-ac70e437b7f0",
-            "Value": {
-                "id": "a208c008-9ca4-425c-9f49-2800007f315b",
-                "resourcePath": "objects\\oCamera1\\oCamera1.yy",
-                "resourceType": "GMObject"
             }
         },
         {
