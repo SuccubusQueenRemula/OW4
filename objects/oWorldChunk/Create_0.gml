@@ -1,8 +1,8 @@
 tileGrid = noone;
 terrainWalls = noone;
 terrainEdges = noone;
-instanceList = ds_list_create();
-instanceMap = ds_map_create();
+mDsCreateList(id, "instanceList");
+mDsCreateMap(id, "instanceMap");
 depth = Depths.AbsoluteBottom
 draw = false;
 

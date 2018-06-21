@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "392ccaf1-4572-418f-a165-5d2ddb593f74",
+            "Value": {
+                "id": "97e64d45-eaa4-4134-9358-93fde7d51761",
+                "resourcePath": "scripts\\mDsCreateMap\\mDsCreateMap.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "39360b0c-0014-4f1a-b018-00af5dd3bce9",
             "Value": {
                 "id": "b39cf6da-0d21-4288-b90d-910d50ad0455",
@@ -3375,6 +3383,14 @@
             }
         },
         {
+            "Key": "e4d78b59-a598-46fe-ae56-ebb9c8cbc69c",
+            "Value": {
+                "id": "f801829c-e314-4850-b947-a7e720d37992",
+                "resourcePath": "objects\\object101\\object101.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e64a0a2a-9f37-480e-bd36-775cfe3586b2",
             "Value": {
                 "id": "7e2406d2-9555-4093-bdaa-241e2ac32c84",
@@ -3889,7 +3905,8 @@
         "b1e9c442-9095-4377-9150-9bde0249ae12",
         "6ccce4be-0a96-49a1-8bab-03648d6653f8",
         "dd9fe582-d516-4f70-b194-1cc330bae424",
-        "e1f40797-454e-4b7b-b87e-49bf794e7738"
+        "e1f40797-454e-4b7b-b87e-49bf794e7738",
+        "392ccaf1-4572-418f-a165-5d2ddb593f74"
     ],
     "tutorial": ""
 }
