@@ -1,2 +1,3 @@
 event_inherited();
-depthGrid = ds_grid_create(2, 1);
+mDsCreateGrid(id, "depthGrid", 2, 1);
+//depthGrid = ds_grid_create(2, 1);

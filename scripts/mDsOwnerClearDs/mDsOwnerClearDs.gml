@@ -44,10 +44,26 @@ if (mIsDsOwner())
 					break;
 			}
 		}
+		//Hrm... If we go into this else, it means we detected a reason NOT to attempt to delete a data structure here.
+		//Let's determine the precise reason and report it to the client log.
+		else
+		{
+			//WARNING: These are going to be slow as hell to write, but they're mostly made for us to keep DS memory clear. Hopefully if the game goes live, these won't ever be needed.
+			//Report if this number wasn't detected to be a DS of the proper type.
+			if (!ds_exists(_num, _type))
+			{			
+				mClientLogAddEntry("ERROR: AGC tried to clean a non-existent DS. Index was " + string(_num) + ". Expected DS type was " + string(_type) + ". Object index type was " + object_get_name(object_index));
+			}
+			//Report if the value originally storing the ds seems to have changed.
+			if (_varVal != _num)
+			{
+				mClientLogAddEntry("ERROR: AGC detected that a DS-assigned variable had changed value after assignment. Expected number to be " + string(_num) + " but got " + string(_varVal) + ". Object type was " + object_get_name(object_index) + " and variable name was " + string(_name));
+			}
+		}
 		
 	}
 	
 	
+	//Also make sure to destroy the master DS grid. Lest we just wind up with a new memory leak issue.
 	ds_grid_destroy(masterDsGrid);
 }
-

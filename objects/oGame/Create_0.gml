@@ -1,7 +1,10 @@
 event_inherited();
 
 mDefineGlobals();
-//mFullscreen();
+
+mClientLogOpen();
+mClientLogAddEntry("Test!");
+
 
 depth = -16000;
 

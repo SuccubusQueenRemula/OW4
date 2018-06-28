@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "0924bfbd-a2d2-47f3-96f5-5d059897aeae",
+            "Value": {
+                "id": "483e7a38-6e26-4b65-ab98-7efb93897b8d",
+                "resourcePath": "scripts\\mClientLogAddEntry\\mClientLogAddEntry.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "09c8e9df-d179-4241-b2a5-efa425b917e9",
             "Value": {
                 "id": "ef544c96-0033-4fce-89f5-613f394c68e8",
@@ -2191,6 +2199,14 @@
             }
         },
         {
+            "Key": "976304fd-a31d-4969-8486-da13f759aa2f",
+            "Value": {
+                "id": "87ca9af9-22a9-4929-af88-a8585f749f4d",
+                "resourcePath": "views\\976304fd-a31d-4969-8486-da13f759aa2f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "97bd0916-05c8-49e5-a8f6-6d62e8ba14e3",
             "Value": {
                 "id": "cd2574c9-86b2-42cb-9622-e16db502b340",
@@ -3303,6 +3319,14 @@
             }
         },
         {
+            "Key": "df848146-03a2-49d3-b0bc-be121843ba54",
+            "Value": {
+                "id": "1fd1193c-17c2-4b9e-a229-2f72b21e9967",
+                "resourcePath": "scripts\\mMacroClientLogFileName\\mMacroClientLogFileName.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dfe706c2-d9da-4ab4-b1a5-70737b4a290a",
             "Value": {
                 "id": "cfdb2818-eb3e-4481-86cb-fcf7d2c22ab6",
@@ -3671,6 +3695,14 @@
             }
         },
         {
+            "Key": "f9e8d770-01b9-4023-be5f-d2c1bfbb7eec",
+            "Value": {
+                "id": "1ec9e76e-d1ce-464c-8a50-4fac6851b032",
+                "resourcePath": "scripts\\mClientLogOpen\\mClientLogOpen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f9f94e39-0a0a-488f-9afc-5c53e0cad2e3",
             "Value": {
                 "id": "d32acf25-b2c1-41dc-beb2-75ee56d0d1f3",
@@ -3900,13 +3932,16 @@
         "3a3a6785-1e71-427f-a99f-960fe5a88d36",
         "084e70f0-e121-49e7-8da3-79db27de4824",
         "0f1984ef-29a7-4629-bae1-a34a22525647",
+        "df848146-03a2-49d3-b0bc-be121843ba54",
         "a730344f-5bf3-4dc8-b0d5-4581070930b7",
         "a2873b04-34c5-4dbb-9879-468cfdc7c583",
         "b1e9c442-9095-4377-9150-9bde0249ae12",
         "6ccce4be-0a96-49a1-8bab-03648d6653f8",
+        "392ccaf1-4572-418f-a165-5d2ddb593f74",
         "dd9fe582-d516-4f70-b194-1cc330bae424",
         "e1f40797-454e-4b7b-b87e-49bf794e7738",
-        "392ccaf1-4572-418f-a165-5d2ddb593f74"
+        "f9e8d770-01b9-4023-be5f-d2c1bfbb7eec",
+        "0924bfbd-a2d2-47f3-96f5-5d059897aeae"
     ],
     "tutorial": ""
 }

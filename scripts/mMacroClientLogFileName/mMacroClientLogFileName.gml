@@ -1,0 +1,1 @@
+#macro CLIENT_LOG_FILE_NAME "ClientLog.txt"

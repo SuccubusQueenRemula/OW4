@@ -1,4 +1,4 @@
-/// @description SONG THAT ENDS WORLD
+/// @description SONG THAT ENDS THE WORLD
 
 if (!isRelease && gameState != gameStates.consoleOpen)
 {
