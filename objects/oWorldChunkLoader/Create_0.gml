@@ -4,14 +4,13 @@ chunkInfo = noone;
 finishedLoading = false;
 
 applySurface = false;
+dataBuffer = buffer_create(1, buffer_grow, 1);
+loadId = noone;
+finishedBuffering = true;
 
 
 
 alarm[0] = 20;
-alarm[1] = 30;
-alarm[2] = 40;
-alarm[3] = 50;
-alarm[4] = 60;
 
 //timeline_index = qLoadWorldChunk;
 //timeline_running = true;
