@@ -1,2 +1,9 @@
 /// @description Finish load.
-mCompleteChunkLoad();
+if (!haltLoad)
+{
+	mCompleteChunkLoad();
+}
+else
+{
+	mClientLogAddEntry("Finish load operation cancelled. Chunk loader was already destroyed.");
+}

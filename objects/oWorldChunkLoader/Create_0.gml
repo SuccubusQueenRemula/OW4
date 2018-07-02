@@ -1,16 +1,15 @@
 loadingWorldChunk = instance_create_depth(x, y, 16000, oWorldChunk);
-chunkFile = "testChunk.json";
 chunkInfo = noone;
 finishedLoading = false;
 
 applySurface = false;
-dataBuffer = buffer_create(1, buffer_grow, 1);
+dataBuffer = noone;
 loadId = noone;
-finishedBuffering = true;
+haltLoad = false;
 
 
 
-alarm[0] = 20;
+alarm[0] = 2;
 
 //timeline_index = qLoadWorldChunk;
 //timeline_running = true;

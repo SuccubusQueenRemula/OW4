@@ -1,4 +1,5 @@
 event_inherited();
+draw = false;
 
 if (ds_exists(tileGrid, ds_type_grid))
 {
