@@ -25,7 +25,7 @@ for (_y = 0; _y < _paraH; _y++)
 		draw_sprite(_sprite, 0, ds_grid_get(parallaxGrid, 1, _y), ds_grid_get(parallaxGrid, 2, _y));
 	}
 }
-
-mClientLogAddEntry("Overhead parallax canvas created for X: " + string(owner.xCoord) + " Y: " + string(owner.yCoord) + ". SURFACE ID WAS " + string(surface));
+//These disk write operations are causing too much of a hiccup right now. I need to find a good way to make client logging asynchronous before I can do these.
+//mClientLogAddEntry("Overhead parallax canvas created for X: " + string(owner.xCoord) + " Y: " + string(owner.yCoord) + ". SURFACE ID WAS " + string(surface));
 
 surface_reset_target();

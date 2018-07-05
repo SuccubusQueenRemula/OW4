@@ -25,5 +25,7 @@ for (_y = 0; _y < _roofsH; _y++)
 	}
 }
 
-mClientLogAddEntry("Overhead surface created for X: " + string(owner.xCoord) + " Y: " + string(owner.yCoord) + ". SURFACE ID WAS " + string(surface));
+
+//These disk write operations are causing too much of a hiccup right now. I need to find a good way to make client logging asynchronous before I can do these.
+//mClientLogAddEntry("Overhead surface created for X: " + string(owner.xCoord) + " Y: " + string(owner.yCoord) + ". SURFACE ID WAS " + string(surface));
 surface_reset_target();

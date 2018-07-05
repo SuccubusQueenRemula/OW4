@@ -56,6 +56,6 @@ for (_y = 0; _y < _wallsH; _y++)
 	}
 }
 
-
-mClientLogAddEntry("Terrain canvas created for X: " + string(xCoord) + " Y: " + string(yCoord) + ". SURFACE ID WAS " + string(terrainSurface));
+//These disk write operations are causing too much of a hiccup right now. I need to find a good way to make client logging asynchronous before I can do these.
+//mClientLogAddEntry("Terrain canvas created for X: " + string(xCoord) + " Y: " + string(yCoord) + ". SURFACE ID WAS " + string(terrainSurface));
 surface_reset_target();
