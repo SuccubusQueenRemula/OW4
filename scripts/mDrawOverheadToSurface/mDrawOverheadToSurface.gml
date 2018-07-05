@@ -7,23 +7,23 @@ if (!surface_exists(surface))
 }
 
 surface_set_target(surface);
+draw_clear_alpha(c_black, 0);
 
 var _y = 0;
 var _sprite = noone;
 var _roofsH = ds_grid_height(overheadRoofs);
 
 
-//Now do the same thing for the edges. The walls only need to go by height.
+//Draw the roofs onto the surface
 for (_y = 0; _y < _roofsH; _y++)
 {
-	_sprite = ds_grid_get(overheadRoofs, 0, _y);
+	_sprite = ds_grid_get(overheadRoofs, ChunkCanvasDataColumns.SpriteIndex, _y);
 	
 	if (sprite_exists(_sprite))
 	{
-		//TODO: Fix magic numbers.
-		draw_sprite(_sprite, 0, ds_grid_get(overheadRoofs, 1, _y), ds_grid_get(overheadRoofs, 2, _y));
+		draw_sprite(_sprite, 0, ds_grid_get(overheadRoofs, ChunkCanvasDataColumns.SpriteX, _y), ds_grid_get(overheadRoofs, ChunkCanvasDataColumns.SpriteY, _y));
 	}
 }
 
-
+mClientLogAddEntry("Overhead surface created for X: " + string(owner.xCoord) + " Y: " + string(owner.yCoord) + ". SURFACE ID WAS " + string(surface));
 surface_reset_target();

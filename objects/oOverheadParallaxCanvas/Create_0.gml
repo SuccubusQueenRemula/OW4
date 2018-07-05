@@ -1,4 +1,4 @@
-surface = surface_create(global.chunkWidth * 2, global.chunkHeight * 2); 
+surface = noone;//surface_create(global.chunkWidth * 2, global.chunkHeight * 2); 
 draw = false;
 owner = noone;
 

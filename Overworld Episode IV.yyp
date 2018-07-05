@@ -1671,6 +1671,14 @@
             }
         },
         {
+            "Key": "712e9b9b-06c7-4027-a6b1-aed33b932636",
+            "Value": {
+                "id": "88e49cd9-f81b-4f5e-9f82-509c042cd5aa",
+                "resourcePath": "scripts\\mEnumChunkCanvasDataColumnNames\\mEnumChunkCanvasDataColumnNames.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "72ec7ade-604d-4568-b180-9e79378e7a34",
             "Value": {
                 "id": "7bc89b92-db11-439f-ac81-aecb4b452c61",
@@ -3941,6 +3949,7 @@
         "084e70f0-e121-49e7-8da3-79db27de4824",
         "0f1984ef-29a7-4629-bae1-a34a22525647",
         "df848146-03a2-49d3-b0bc-be121843ba54",
+        "712e9b9b-06c7-4027-a6b1-aed33b932636",
         "a730344f-5bf3-4dc8-b0d5-4581070930b7",
         "a2873b04-34c5-4dbb-9879-468cfdc7c583",
         "b1e9c442-9095-4377-9150-9bde0249ae12",

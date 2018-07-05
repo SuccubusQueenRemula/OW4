@@ -7,6 +7,7 @@ if (!surface_exists(terrainSurface))
 }
 
 surface_set_target(terrainSurface);
+draw_clear_alpha(c_black, 0);
 
 //Now we loop through all of the tiles in this world chunk and draw them onto the surface.
 var _tilesH = ds_grid_height(tileGrid);
@@ -56,5 +57,5 @@ for (_y = 0; _y < _wallsH; _y++)
 }
 
 
-
+mClientLogAddEntry("Terrain canvas created for X: " + string(xCoord) + " Y: " + string(yCoord) + ". SURFACE ID WAS " + string(terrainSurface));
 surface_reset_target();

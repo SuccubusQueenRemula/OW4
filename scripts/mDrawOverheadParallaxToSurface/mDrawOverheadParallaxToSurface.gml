@@ -7,6 +7,7 @@ if (!surface_exists(surface))
 }
 
 surface_set_target(surface);
+draw_clear_alpha(c_black, 0);
 
 var _y = 0;
 var _sprite = noone;
@@ -25,5 +26,6 @@ for (_y = 0; _y < _paraH; _y++)
 	}
 }
 
+mClientLogAddEntry("Overhead parallax canvas created for X: " + string(owner.xCoord) + " Y: " + string(owner.yCoord) + ". SURFACE ID WAS " + string(surface));
 
 surface_reset_target();
