@@ -3,7 +3,7 @@ terrainWalls = noone;
 terrainEdges = noone;
 mDsCreateList(id, "instanceList");
 mDsCreateMap(id, "instanceMap");
-depth = Depths.AbsoluteBottom
+depth = Depths.AbsoluteBottom;
 draw = false;
 
 
