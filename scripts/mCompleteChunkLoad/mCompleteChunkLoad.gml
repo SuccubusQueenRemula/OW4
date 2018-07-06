@@ -1,4 +1,4 @@
-///@description To be called by oWorldChunkLoader during its load process. Replaces itself in the grid with its world chunk, then deletes itself.
+///@description To be called by oWorldChunkLoader during its load process. Replaces itself in the grid with its world chunk, then marks itself for deletion in 2-3 more frames.
 
 //Get the world grid and store its dimensions.
 var _worldGrid = oWorldHandler.worldChunks;
@@ -26,8 +26,7 @@ for (var _yy = 0; _yy < _gridHeight; _yy++)
 			
 			//Replace the world chunk loader with the world chunk itself, mark the loading complete, and destroy self.
 			ds_grid_set(_worldGrid, _xx, _yy, loadingWorldChunk);	
-			finishedLoading = true;
-			instance_destroy();
+			alarm[5] = 3;
 			//No need to iterate through the grid further.
 			exit;
 		}

@@ -1,6 +1,6 @@
 if (!haltLoad)
 {
-	mPopulateWorldChunk(loadingWorldChunk, x, y, chunkInfo, chunkFile);
+	//mPopulateWorldChunk(loadingWorldChunk, x, y, chunkInfo, chunkFile);
 }
 else
 {

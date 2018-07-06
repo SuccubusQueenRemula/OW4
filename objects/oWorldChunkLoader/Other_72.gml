@@ -39,10 +39,10 @@ if (buffer_exists(dataBuffer))
 				}
 			}
 		
-			alarm[1] = 5;
-			alarm[2] = 10;
-			alarm[3] = 15;
-			alarm[4] = 20;
+			mPopulateWorldChunk(loadingWorldChunk, x, y, chunkInfo, chunkFile);//alarm[1] = 5;
+			mChunkLoaderApplyChangeLists();//alarm[2] = 10;
+			applySurface = true;//alarm[3] = 15;
+			mCompleteChunkLoad();//alarm[4] = 20;
 		}
 	}
 }

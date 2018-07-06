@@ -1,7 +1,7 @@
 /// @description Finish load.
 if (!haltLoad)
 {
-	mCompleteChunkLoad();
+	//mCompleteChunkLoad();
 }
 else
 {

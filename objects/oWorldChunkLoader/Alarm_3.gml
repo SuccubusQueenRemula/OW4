@@ -1,7 +1,7 @@
 ///@description Apply the surface this frame.
 if (!haltLoad)
 {
-	applySurface = true;
+	//applySurface = true;
 }
 
 else
