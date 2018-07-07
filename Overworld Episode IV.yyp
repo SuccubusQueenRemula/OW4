@@ -967,6 +967,14 @@
             }
         },
         {
+            "Key": "407887cf-9a77-4306-8cbd-680714ae60b3",
+            "Value": {
+                "id": "244670f1-217f-4529-b0de-0a39129a5c33",
+                "resourcePath": "views\\407887cf-9a77-4306-8cbd-680714ae60b3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "40d95bb8-a931-48a6-8a60-3e013a5c6f3e",
             "Value": {
                 "id": "81c80aa8-b539-47d3-822f-ab54d9bfa15e",
@@ -2939,6 +2947,14 @@
             "Value": {
                 "id": "a3e00ed5-a08b-4d1a-8e4e-956bfa1a7161",
                 "resourcePath": "objects\\oConversationHandler\\oConversationHandler.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c68834bf-febf-4a91-809b-802042e14afe",
+            "Value": {
+                "id": "a8d64266-d9e6-4202-bbc1-bc4ee9cbbec6",
+                "resourcePath": "objects\\oPartyMember\\oPartyMember.yy",
                 "resourceType": "GMObject"
             }
         },
