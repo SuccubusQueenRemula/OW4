@@ -11,11 +11,6 @@ var _chunkY = argument2;
 var _chunkInfo = argument3;
 var _chunkName = argument4;
 
-if (_chunkX == 1001 && _chunkY == 1001)
-{
-	var _stopHere = true;
-}
-
 
 _loadingWorldChunk.x = _chunkX;
 _loadingWorldChunk.y = _chunkY;

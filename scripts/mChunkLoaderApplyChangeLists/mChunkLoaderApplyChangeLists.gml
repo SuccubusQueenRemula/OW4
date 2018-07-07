@@ -22,6 +22,7 @@
 		//If the changelist's changes are erroneous, then we fix than and don't apply anything.
 		if (changes == noone || !ds_exists(changes, ds_type_grid))
 		{
+			//We don't delete this ds_grid, since it might be used later on. That's for the changelist handler to delete.
 			changes = ds_grid_create(4, 0);
 			instance_deactivate_object(_changeList);
 			exit;

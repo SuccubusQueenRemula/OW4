@@ -18,7 +18,8 @@ if (buffer_exists(dataBuffer))
 	
 	with (_cleaner)
 	{
-		alarm[0] = 3;
+		//We give the cleaner a lot of extra time to ensure this object has  been fully disposed of and finished loading.
+		alarm[0] = 30;
 		dataBuffer =  _b;
 	}
 }
