@@ -3743,6 +3743,14 @@
             }
         },
         {
+            "Key": "f86f798e-764d-4fc0-9ee7-b0897179cb66",
+            "Value": {
+                "id": "d0959de0-3dd8-43e6-99f0-dd93ec25cb7f",
+                "resourcePath": "scripts\\mDsCreateQueue\\mDsCreateQueue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f8cc7ad7-3c4d-4140-859d-f42b5cf4d541",
             "Value": {
                 "id": "10ae2d38-4943-471b-afbc-950bd56340b0",
@@ -4010,6 +4018,7 @@
         "a730344f-5bf3-4dc8-b0d5-4581070930b7",
         "a2873b04-34c5-4dbb-9879-468cfdc7c583",
         "b1e9c442-9095-4377-9150-9bde0249ae12",
+        "f86f798e-764d-4fc0-9ee7-b0897179cb66",
         "6ccce4be-0a96-49a1-8bab-03648d6653f8",
         "392ccaf1-4572-418f-a165-5d2ddb593f74",
         "dd9fe582-d516-4f70-b194-1cc330bae424",

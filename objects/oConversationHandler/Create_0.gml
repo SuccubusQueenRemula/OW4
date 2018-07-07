@@ -25,13 +25,13 @@ maxDisplayedIndex = 8;
 
 //Known keywords is a two-column grid. The first column is the text of the keyword.
 //The second is the keyword priority. See the above enum.
-knownKeyWords = mInitializeKnownKeyWords();
+mInitializeKnownKeyWords();
 #endregion InitiateKeyWords
 
 //This instance ID of the NPC being conversed with. Stored for quick and easy access.
 conversingNPC = noone;
 
-conversationQueue = ds_queue_create();
+mDsCreateQueue(id, "conversationQueue");
 
 currentMessage = noone;
 
