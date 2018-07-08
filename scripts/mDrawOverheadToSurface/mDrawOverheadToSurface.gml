@@ -12,6 +12,7 @@ draw_clear_alpha(c_black, 0);
 var _y = 0;
 var _sprite = noone;
 var _roofsH = ds_grid_height(overheadRoofs);
+var _decH = ds_grid_height(overheadDecorum);
 
 
 //Draw the roofs onto the surface
@@ -22,6 +23,16 @@ for (_y = 0; _y < _roofsH; _y++)
 	if (sprite_exists(_sprite))
 	{
 		draw_sprite(_sprite, 0, ds_grid_get(overheadRoofs, ChunkCanvasDataColumns.SpriteX, _y), ds_grid_get(overheadRoofs, ChunkCanvasDataColumns.SpriteY, _y));
+	}
+}
+
+for (_y = 0; _y < _decH; _y++)
+{
+	_sprite = ds_grid_get(overheadDecorum, ChunkCanvasDataColumns.SpriteIndex, _y);
+	
+	if (sprite_exists(_sprite))
+	{
+		draw_sprite(_sprite, 0, ds_grid_get(overheadDecorum, ChunkCanvasDataColumns.SpriteX, _y), ds_grid_get(overheadDecorum, ChunkCanvasDataColumns.SpriteY, _y));
 	}
 }
 

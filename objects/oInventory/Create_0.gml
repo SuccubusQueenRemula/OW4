@@ -1,1 +1,1 @@
-inv = ds_grid_create(5,5);
+mDsCreateGrid(id, "inv", 5, 5);

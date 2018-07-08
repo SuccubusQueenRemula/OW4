@@ -1,6 +1,7 @@
 tileGrid = noone;
 terrainWalls = noone;
 terrainEdges = noone;
+terrainDecorum = noone;
 mDsCreateList(id, "instanceList");
 mDsCreateMap(id, "instanceMap");
 depth = Depths.AbsoluteBottom;

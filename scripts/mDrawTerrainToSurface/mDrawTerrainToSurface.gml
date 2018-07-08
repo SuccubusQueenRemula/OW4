@@ -14,6 +14,8 @@ var _tilesH = ds_grid_height(tileGrid);
 var _tilesW = ds_grid_width(tileGrid);
 var _wallsH = ds_grid_height(terrainWalls);
 var _edgesH = ds_grid_height(terrainEdges);
+var _decH = ds_grid_height(terrainDecorum);
+
 var _y, _x, _sprite;
 
 for (_y = 0; _y < _tilesH; _y++)
@@ -53,6 +55,18 @@ for (_y = 0; _y < _wallsH; _y++)
 	{
 		//TODO: Fix magic numbers.
 		draw_sprite(_sprite, 0, ds_grid_get(terrainWalls, 1, _y), ds_grid_get(terrainWalls, 2, _y));
+	}
+}
+
+//Finally decorum
+for (_y = 0; _y < _decH; _y++)
+{
+	_sprite = ds_grid_get(terrainDecorum, 0, _y);
+	
+	if (sprite_exists(_sprite))
+	{
+		//TODO: Fix magic numbers.
+		draw_sprite(_sprite, 0, ds_grid_get(terrainDecorum, 1, _y), ds_grid_get(terrainDecorum, 2, _y));
 	}
 }
 

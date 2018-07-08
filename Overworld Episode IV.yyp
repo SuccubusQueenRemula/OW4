@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "00798ddd-e3ff-4055-8104-9395530ad364",
+            "Value": {
+                "id": "bb53ba36-e5ea-4fe8-96c9-0854a535bd5a",
+                "resourcePath": "sprites\\sFeraciaStump\\sFeraciaStump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00859c98-6ddf-4fb7-abed-221281ed7f32",
             "Value": {
                 "id": "47940cc1-03c6-400b-952d-ad58c9dd518a",
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "1279f1a6-c98f-43ae-ad5f-4f1e5d31b350",
+            "Value": {
+                "id": "f1e79bde-097f-4b77-b557-99e5770b02b6",
+                "resourcePath": "sprites\\sFeraciaTree3\\sFeraciaTree3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "131a6ba2-c52a-49d7-80f3-941b5b4fbbbc",
             "Value": {
                 "id": "9dfcbd9c-393a-48d5-903c-902b4cd7c30e",
@@ -620,6 +636,14 @@
                 "id": "f1c28a97-ae12-48a8-a183-f60384370afc",
                 "resourcePath": "scripts\\mChangeScreen\\mChangeScreen.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "21bccddf-d1d9-4a25-b75b-2b8357cf36e4",
+            "Value": {
+                "id": "9d60ca56-146a-4fc5-a3e2-3b817de67b55",
+                "resourcePath": "objects\\oFeraciaTree1\\oFeraciaTree1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -911,6 +935,14 @@
             }
         },
         {
+            "Key": "3a718ff9-ce4a-4d9d-acff-d62fd8f05f2c",
+            "Value": {
+                "id": "fd5a1d95-84f6-4e0a-ad96-bfd68c294754",
+                "resourcePath": "sprites\\sFeraciaTree4\\sFeraciaTree4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c046ce5-e06c-4fd9-9fa7-4cebbcf1e6dc",
             "Value": {
                 "id": "dfe915a3-9798-4723-b34d-7253876e4b96",
@@ -1063,11 +1095,27 @@
             }
         },
         {
+            "Key": "444259e8-a7e7-4b55-91be-b658c138ad74",
+            "Value": {
+                "id": "8104e832-6d8a-4429-bb5c-778cf43dda37",
+                "resourcePath": "objects\\oFeracianStump\\oFeracianStump.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "448d77c2-55c1-432f-911d-1d5db351cbe2",
             "Value": {
                 "id": "2495232c-22e6-43d9-ac72-2ecf2d5ea342",
                 "resourcePath": "scripts\\mLoadChangeListData\\mLoadChangeListData.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "45987f20-b358-4693-8829-787c1cb9cfff",
+            "Value": {
+                "id": "d52c0156-8818-432d-a7fc-c928f69d1c43",
+                "resourcePath": "objects\\oFeraciaTree5\\oFeraciaTree5.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1092,6 +1140,14 @@
                 "id": "dbbd62a5-d4ab-4bcb-86f6-a29a58c03992",
                 "resourcePath": "datafiles_yy\\World\\X1001Y1000.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "47851920-8133-4c75-9366-6f1bb6e7ac3a",
+            "Value": {
+                "id": "0e574292-e278-490e-a230-d6337bd0b7e5",
+                "resourcePath": "objects\\oFeraciaTree4\\oFeraciaTree4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1276,6 +1332,14 @@
                 "id": "421e3925-dcbf-4b33-b134-5676c90351e4",
                 "resourcePath": "rooms\\cX999Y998_UnhappyTown\\cX999Y998_UnhappyTown.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5450e019-3bd0-45ac-9381-4e039fe438b6",
+            "Value": {
+                "id": "56c096bd-dbc1-422c-a990-14f5fa357fdc",
+                "resourcePath": "views\\5450e019-3bd0-45ac-9381-4e039fe438b6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1727,6 +1791,14 @@
             }
         },
         {
+            "Key": "7445d104-bb0c-4fbd-afd2-c8c55caef6dd",
+            "Value": {
+                "id": "942cd751-5258-4907-a78d-3668abcf8d29",
+                "resourcePath": "sprites\\sFeraciaTree5\\sFeraciaTree5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74cda3d7-4b1c-4eec-b4dd-8d79a2d595f1",
             "Value": {
                 "id": "ac5ad2a2-3ec0-4e6c-8566-d84f3e55060a",
@@ -1815,6 +1887,14 @@
             }
         },
         {
+            "Key": "7af17b84-05ad-45b9-b3ed-c9df00271915",
+            "Value": {
+                "id": "c8ebd7bf-c9fa-43d8-b3e2-a9a1d79d22a8",
+                "resourcePath": "sprites\\sFeraciaTree2\\sFeraciaTree2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7bdfee19-e4ea-4305-8774-d83873da407a",
             "Value": {
                 "id": "fe790bbf-a1da-4ea7-a238-021afce4acac",
@@ -1844,6 +1924,14 @@
                 "id": "e77369d0-3f1b-46fa-b5ce-55e48aa58981",
                 "resourcePath": "paths\\pTest\\pTest.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "7d897b85-b12e-4bd0-9e9f-b3b020049632",
+            "Value": {
+                "id": "3a57c447-efb6-4c8f-b3ce-0829e68123fb",
+                "resourcePath": "scripts\\mChunkLoaderPopulateOverheadDecorum\\mChunkLoaderPopulateOverheadDecorum.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2028,6 +2116,14 @@
                 "id": "1f7d3583-f669-4fb2-93da-9a846ccaf030",
                 "resourcePath": "scripts\\mPreserveSingletons\\mPreserveSingletons.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8a6b487c-5511-4ccb-9719-9e390e8ebbbc",
+            "Value": {
+                "id": "b2ce8721-220d-4c00-82e1-14303f3917a1",
+                "resourcePath": "objects\\oFeraciaTree3\\oFeraciaTree3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2727,6 +2823,14 @@
             }
         },
         {
+            "Key": "b72cff6b-c24d-448b-9f25-d575c8259246",
+            "Value": {
+                "id": "3a2472b2-46fa-44f6-a5d3-67f3376dd619",
+                "resourcePath": "objects\\oFeraciaTree2\\oFeraciaTree2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7aa1469-a276-4ff8-9552-ccb4d5a0d3b4",
             "Value": {
                 "id": "d803e750-7886-4fbb-9485-ddf816bd6ff4",
@@ -3055,6 +3159,14 @@
             }
         },
         {
+            "Key": "caf98688-5b92-415c-bb55-c0bf815667c8",
+            "Value": {
+                "id": "6ef41157-7a67-4cc5-9d37-110fcb1597f4",
+                "resourcePath": "sprites\\sFeraciaTree1\\sFeraciaTree1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cb658015-841b-4a69-868e-ab96926b0705",
             "Value": {
                 "id": "e9a26ead-46ff-4dcd-ac49-9dce08cce631",
@@ -3268,6 +3380,14 @@
                 "id": "f81dec3b-dc16-449b-85e4-2bc3f4f1d4d2",
                 "resourcePath": "datafiles_yy\\World\\X1004Y999.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d8316a44-dd78-4e8e-9405-740aeb71a598",
+            "Value": {
+                "id": "29e857bd-4677-4f76-b4f6-594580313013",
+                "resourcePath": "scripts\\mChunkLoaderPopulateTerrainDecorum\\mChunkLoaderPopulateTerrainDecorum.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3982,7 +4102,9 @@
         "60a4dd36-ec77-412a-97bc-56df889ea75e",
         "0a030a93-f829-4293-86c7-55903178b29c",
         "0092c1f9-e578-4fc0-a089-3ac295b98bc4",
+        "d8316a44-dd78-4e8e-9405-740aeb71a598",
         "3641ef05-8aff-4d39-a0c5-3e82f5a38b6e",
+        "7d897b85-b12e-4bd0-9e9f-b3b020049632",
         "39d65dbe-d1bc-4437-8c6a-889ba05ae8c6",
         "c977c1a2-dba1-41f2-9625-db6d014bc13f",
         "4ffbd4b6-393f-40fe-9de3-1a60c9c10a98",

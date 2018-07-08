@@ -36,5 +36,6 @@ mCreateSingleton(oChangeListHandler);
 mCreateSingleton(oTimer);
 mCreateSingleton(oCamera);
 mCreateSingleton(oErrorMessageDisplay);
+mPreserveSingletons();
 mDeleteDuplicateSingletons();
 

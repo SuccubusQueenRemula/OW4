@@ -20,12 +20,14 @@ if (object_is_ancestor(_actor.object_index, oActor))
 			else
 			{
 				actorInventory = instance_create_layer(x, y, "Instances", oInventory);
+				actorInventory.owner = id;
 			}
 		}
 		//The inventory's not yet been set even to noone. We still want to initiate it.
 		else
 		{
 			actorInventory = instance_create_layer(x, y, "Instances", oInventory);
+			actorInventory.owner = id;
 		}
 	}
 }

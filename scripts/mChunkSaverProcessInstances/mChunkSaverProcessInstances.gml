@@ -14,8 +14,11 @@ with (all)
 	&& object_index != oMultiChunkBuilder
 	&& !object_is_ancestor(object_index, oChunkCreatorTerrainWall)
 	&& !object_is_ancestor(object_index, oChunkCreatorTerrainEdge)
+	&& !object_is_ancestor(object_index, oChunkCreatorTerrainDecorum)
+	&& !object_is_ancestor(object_index, oChunkCreatorOverheadDecorum)
 	&& !object_is_ancestor(object_index, oChunkCreatorOverheadRoof)
 	&& !object_is_ancestor(object_index, oChunkCreatorOverheadParallaxItem)
+	&& object_index != oInventory
 	&& object_index != oOverheadParallaxContainer)
 	{
 		var _instanceMap = ds_map_create();

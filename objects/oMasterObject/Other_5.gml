@@ -1,4 +1,0 @@
-if (!persistent)
-{
-	mDsOwnerClearDs();
-}
