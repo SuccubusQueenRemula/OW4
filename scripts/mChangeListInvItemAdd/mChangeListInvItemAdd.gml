@@ -6,7 +6,7 @@ var _object = argument0;
 //We only want to progress if this object's chunk can be determined.
 if (!mDetermineObjectChunk(_object))
 {
-	return "ERROR";
+	return "COULD NOT DETERMINE OWNER";
 }
 
 //We can use the detX and detY to build the changelist name... 
